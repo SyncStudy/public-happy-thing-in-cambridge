@@ -1,0 +1,2348 @@
+Forthcoming, Journal of Financial and Quantitative Analysis, 2016
+DRIPs and the Dividend Pay Date Effect
+Henk Berkman
+University of Auckland Business School
+Auckland, New Zealand
+h.berkman@auckland.ac.nz
+64 9 923 4861
+Paul D. Koch*
+University of Kansas School of Business
+Lawrence, KS 66045
+pkoch@ku.edu
+785-864-7503
+*Corresponding author. This version is preliminary. We acknowledge the helpful comments of
+Ferhat Akbas, Bob DeYoung, David Emanuel, Kathleen Fuller, Brad Goldie, Ted Juhl, Michal
+Kowalik, Joe Lan, Dimitris Margaritis, Alastair Marsden, Felix Meschke, Nada Mora, Peter
+Phillips, David Solomon, Ken Spong, Jide Wintoki, and seminar participants at the Annual
+Conferences of the Society of Financial Studies Finance Cavalcade, the Financial Management
+Association, and the Southern Finance Association, as well as the University of Auckland, the
+University of Canterbury, the University of Kansas, and the Federal Reserve Bank of Kansas
+City. We also acknowledge the excellent research assistance of Aaron Andra, Suzanna Emelio,
+Greg Freix, and Evan Richardson. Please do not quote without permission.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+2
+DRIPs and the Dividend Pay Date Effect
+Abstract
+On the day that dividends are paid we find a significant positive mean abnormal return that is
+completely reversed over the following days. This dividend pay date effect has strengthened
+since the 1970s, and is consistent with the temporary price pressure hypothesis. The pay date
+effect is concentrated among stocks with dividend reinvestment plans (DRIPs), and is larger for
+stocks with a higher dividend yield, greater DRIP participation, and greater limits to arbitrage.
+Over time, profits from a trading strategy that exploits this behavior are positively related to the
+dividend yield and spread, and negatively associated with aggregate liquidity.
+JEL Classification: D82, G12, G14.
+Key Words: market efficiency, price pressure, dividend reinvestment plan, retail investors,
+liquidity, limits to arbitrage, institutional ownership, short sales.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+1
+I. Introduction
+Many studies examine stock prices around the dividend announcement day or the exdividend date. These events are of interest because they might contain value-relevant news
+associated with a dividend surprise, or evoke trading to capture dividends.1
+In contrast, when the
+dividend pay date arrives, there is no tax-motivated trading and no new information about the
+amount or timing of this distribution. Nevertheless, we find striking evidence of a predictable
+price increase on the pay date that is completely reversed over the following days. This
+temporary inflation is concentrated among firms with dividend reinvestment plans (DRIPs).
+A company-sponsored DRIP allows shareholders to automatically reinvest their dividend
+income into more shares of the firm, without paying brokerage costs and sometimes at a
+discount. Firms with DRIPs tend to be larger, with higher institutional ownership and lower
+spreads. On average, 43% of all dividend-paying firms have company-sponsored DRIPs, but
+these firms represent 75% of the total market capitalization of all dividend-paying firms.
+The fact that there is no new information on the dividend pay date, combined with the
+prevalence of DRIPs among U.S. stocks, creates an ideal setting to test the temporary price
+pressure hypothesis.2
+In this setting, we predict that liquidity suppliers should require a price
+increase on the dividend pay date to accommodate the increased demand for shares by
+uninformed (re-)investors. Ogden (1994) is the first to test this prediction. During the period,
+1962 - 1989, he finds a small but significant mean abnormal return of 7 basis points (bp) on the
+pay date, which accumulates to 20 bp over the following three days. However, he finds no
+
+1 DeAngelo, DeAngelo, and Skinner (2009) review this literature.
+2 Other events that have been studied to test price pressure are more likely to have information content. For
+example, Mitchell, Pulvino, and Stafford (2004) examine price pressure around mergers. Studies of block sales and
+secondary distributions include Scholes (1972), Holthausen, Leftwich, and Mayers (1990), and Mikkelson and
+Partch (1986). Studies of changes in the S&P 500 Index include Harris and Gurel (1986), Schleifer (1986), Beneish
+and Whaley (1996), Kaul, Mehrotra, and Morck (2000), and Chen, Noronha, and Singal (2004). Hartzmark and
+Solomon (2013) analyze price pressure in the month that dividends are predicted.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+2
+significant price reversal after the pay date, and thus concludes that his evidence does not support
+the temporary price pressure hypothesis.
+Figure 1 provides analysis similar to Ogden’s (1994) over ten-year subperiods spanning
+the years, 1975 - 2012. Panel A plots the mean daily abnormal returns over the two weeks before
+and after dividend pay dates, for the tercile of stocks with the highest dividend yield, for every
+ten-year period since 1975. Panel B plots the analogous patterns in abnormal trading volume.
+This figure reveals a significant mean abnormal return on the dividend pay date (AR(0)),
+accompanied by a similar spike in abnormal trading volume (RVol(0)). Both spikes have grown
+in magnitude during the two most recent decades, since the mid-1990s. For the tercile of high
+yield stocks, the mean AR(0) has increased from 12 bp in the mid-1970s to nearly 40 bp in the
+most recent decade. In addition, for the two most recent decades, there are several significant
+negative mean abnormal returns after day +1, indicating a reversal that accumulates to offset the
+temporary inflation around the pay date. We also find a significant abnormal return on day -3.3
+The main goal of this paper is to test the temporary price pressure hypothesis by
+exploring how the magnitude of the pay date effect (AR(0)) varies across stocks and over time,
+with an emphasis on the role of company-sponsored DRIPs. For the period, 2008 - 2012, we
+extend the analysis of Ogden by examining the divergent behavior of DRIP firms versus nonDRIP firms. We focus on this recent period because it reveals the greatest price pressure in
+Figure 1, and because we have accurate lists of DRIP firms for this time frame.4
+
+3 Yadav (2010) focuses his study on similar evidence of a price spike on day -3. He notes that the 3-day settlement
+period became effective in July 1995 with SEC Rule 15c6-1, and he suggests that this AR(-3) is due to shareholders
+who buy additional shares on day -3 and settle these trades with the dividend income received on day 0.
+4 We obtained annual lists of DRIP firms since 1996 from the American Association of Individual Investors (AAII).
+However, while we validate that these lists cover all DRIP firms for the most recent period, before 2008 they appear
+to omit many DRIP firms, so that the implied lists of ‘non-DRIP’ firms are corrupted by the inclusion of many DRIP
+firms before 2008. We have made an Internet Appendix available, which shows that our results are robust over the
+extended period, 1996 - 2012.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+3
+Figure 2 provides a first glance at our main results. Here we examine the price patterns
+around the dividend pay date for the subsets of DRIP stocks or non-DRIP stocks in three
+portfolios: (I) all dividend-paying stocks, (II) high dividend yield stocks, and (III) a subset of
+high yield stocks that are hard to arbitrage.5
+Panel A of Figure 2 plots the mean cumulative
+abnormal returns (CARs) for the subsets of DRIP stocks in these three portfolios, while Panel B
+plots the mean CARs for the analogous subsets of non-DRIP stocks.
+Panel A of Figure 2 reveals that the CAR for each portfolio of DRIP stocks is highest on
+day +1, before reversing toward zero on subsequent days. For the portfolio of high yield DRIP
+stocks that are hard to arbitrage, the mean AR on day 0 is 1.4 percent and the mean CAR reaches
+a peak that exceeds 1.5 percent on day +1. Then, for each portfolio, the series of negative ARs
+beginning with day +2 accumulate to offset the temporary price spike on day 0, so that the mean
+CAR is reduced to zero by day +20. This evidence confirms a reversal that completely offsets the
+temporary inflation around the pay date for these portfolios of DRIP stocks.
+Panel B of Figure 2 indicates that the analogous three portfolios of non-DRIP stocks also
+display temporary inflation around the pay date, although it is much smaller in magnitude. One
+potential reason for the temporary (albeit smaller) inflation for non-DRIP stocks is that some
+brokerage houses allow retail clients to reinvest dividends automatically, even for stocks with no
+DRIP. Also, some shareholders of non-DRIP stocks may reinvest dividends on their own.
+6
+These results imply that on the pay date the marginal investor is trying to ‘undo’ the
+dividend payment by reinvesting the cash back into shares of the same company. This motivation
+behind the pay date effect contrasts with prior work which shows that, in the period leading up to
+
+5 The second portfolio (II: High_DY) includes the tercile of all dividend-paying stocks each quarter with the highest
+dividend yield, while the third portfolio (III: Hard_Arb) contains the top tercile of high yield stocks that are also in
+the bottom tercile by institutional ownership and the top tercile by bid ask spread.
+6 In Figure B.1 of Internet Appendix B we show that the results in Figure 2 are robust over the period, 1996 - 2012.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+4
+the ex-dividend date, the marginal investor is a dividend-seeking investor as evidenced by price
+pressure in that period (e.g., see Hartzmark and Solomon, 2013). Thus, the source of the pay date
+effect can be viewed as the exact opposite of the impetus behind the price increase before the exdividend date, which reflects a preference by the marginal investor to receive the dividend.7
+Figures 1 and 2 provide support for the temporary price pressure hypothesis, and indicate
+an important role for DRIPs behind the pay date effect. This evidence motivates us to pursue
+further insights into the nature of this price pressure, by conducting four additional sets of tests.
+Our first set of tests relates the magnitude of the pay date effect, AR(0), to cross-sectional
+variation in the demand for shares on the pay date. We begin by using a simple DRIP indicator
+variable as a proxy for the elevated demand on the pay date for the shares of firms with a
+company-sponsored DRIP. We find that AR(0) is significantly higher for the subset of DRIP
+firms, after controlling for the influence of other firm attributes. Next we develop a proxy for
+firm-specific DRIP participation, based on the observation that a higher level of participation
+should result in a higher proportion of shares outstanding held by registered retail investors.
+8 We
+conjecture that firms with greater DRIP participation (i.e., proxied by more registered retail
+investors) should have a larger pay date effect. Consistent with this conjecture, we show that: i)
+the proportion of shares outstanding held by registered retail shareholders is significantly higher
+for DRIP stocks than for non-DRIP stocks, and ii) higher values for this proxy are associated
+with a significantly larger pay date effect (AR(0)) for DRIP stocks, but not for non-DRIP stocks.
+Our second set of tests investigates whether there is less price pressure for the subset of
+DRIP firms that increases shares outstanding around the pay date. Firms that do not issue new
+
+7 This evidence also raises the question why investors wait to reinvest the dividend on the pay date at a high price,
+instead of selling before the ex date and buying back after the pay date. We thank the referee for these insights.
+8 As we discuss below, DRIP participation is effectively limited to retail investors. In addition, participating retail
+investors need to be ‘registered shareholder of record,’ as opposed to the more common situation where the shares of
+retail investors are held in ‘street name.’
+Electronic copy available at: https://ssrn.com/abstract=2172448
+5
+shares are obliged to meet their DRIP commitments by buying back shares on the open market.
+Alternatively, DRIP firms may issue new shares as another way to meet their DRIP obligations,
+without exerting price pressure on day 0. As expected, we find that the subset of DRIP firms that
+issues new shares around the event has a significantly lower pay date effect, AR(0).
+Our third set of tests examines whether short sellers try to exploit the temporary price
+increase around the pay date. For our sample of DRIP stocks, we find a significant spike in the
+abnormal volume of short selling at the time of the largest positive price spike, on day 0. In
+contrast, for non-DRIP stocks there is no such evidence of abnormal short volume around the
+pay date, consistent with the lower price pressure that we observe for these stocks.
+Finally, we examine whether variation over time in the pay date effect for DRIP stocks is
+related to variation in the average cost of trading in the market. We begin by analyzing three
+alternative trading strategies that attempt to profit from the price spike on day 0. On any given
+day, these strategies prescribe holding the subset of DRIP stocks in each of our three portfolios,
+I - III, on their respective pay dates (i.e., buy at the close on day -1 and sell at the close on day 0).
+For every day (t) in the extended sample period, 1996 - 2012, we first calculate the daily trading
+profits from each strategy as the cross sectional mean abnormal return on the pay date, AR(0)_kt
+,
+for the subset of DRIP stocks in each portfolio (k = I - III) that pays a dividend on that date.
+Within each quarter (n) in the sample period, we then aggregate the series of daily profits,
+AR(0)_kt
+, to obtain the implied stream of quarterly profits measured by the cumulative abnormal
+return for each strategy during quarter n, CAR(0)_kn, k = I - III.
+Our three trading strategies yield streams of quarterly profits that are surprisingly large
+and stable over time. The cumulative abnormal returns for each strategy are positive in at least
+60 of the 68 quarters in the sample. They average 17.4% per quarter for portfolio I (All_Stocks),
+Electronic copy available at: https://ssrn.com/abstract=2172448
+6
+21.3% for portfolio II (High_DY), and 19.3% for portfolio III (Hard_Arb). In addition, they tend
+to be higher during recessions, grow over time, are positively related to movements in the firms’
+dividend yield and spread, and are negatively associated with aggregate liquidity. This evidence
+corroborates the view that the pay date effect constitutes a liquidity premium for these portfolios
+of DRIP firms, in response to temporary price pressure on the pay date.
+This paper contributes to several strands of literature. First we build upon the body of
+work that explores the price pressure hypothesis, by investigating an ideal setting where
+temporary buying pressure stems from a perfectly predictable non-information event. In doing
+so, we exploit a widely used tool to implement a popular investing strategy, DRIPs, which
+creates predictable retail demand on the dividend pay date. Second, we contribute to the
+anomalies literature by providing an example of post-publication return-predictability that has
+become stronger over time, in contrast to the evidence presented in Schwert (2003) and McLean
+and Pontiff (2015). Furthermore, we show that the pay date effect is not limited to small stocks
+with low institutional ownership, which is also in contrast to most other anomalies (see, for
+example, Boehmer and Kelly, 2009, and Chordia et al., 2011). Finally, this paper adds to the
+literature on limits to arbitrage by showing that, while the temporary inflation around the pay
+date is actively exploited by short sellers, their activity is insufficient to eliminate this price
+pressure (see Mitchell, Pulvino, and Stafford, 2002, and Stambaugh, Yu, and Yuan, 2012).
+II. DRIPs: The Literature, Implementation, and Participation
+II.A. Review of the Literature on Dividend Reinvestment Plans
+The use of DRIPs expanded greatly in the 1970s (Pettway and Malone, 1973), but these
+plans have attracted little research in the academic literature. Ogden (1994) is the first to examine
+price pressure around the dividend pay date. He finds evidence of a small price impact that is
+Electronic copy available at: https://ssrn.com/abstract=2172448
+7
+somewhat larger for stocks with DRIPs, but he finds no evidence of a subsequent reversal.
+Moreover, he relies on published lists of firms with DRIPs for just two years, 1984 and 1990,
+forcing him to make assumptions about which firms had DRIPs during the decade of the 1980s.
+Two other working papers also explore price pressure around the dividend pay date.
+Blouin and Cloyd (2005) investigate price changes around the pay dates for closed-end funds
+during the years, 1988 to 2003. They find a significant price increase around the pay date, but no
+significant reversal. Yadav (2010) examines price changes around dividend pay dates over the
+years, 1997 to 2008. Using an incomplete list of 300 DRIP stocks, he finds that the mean
+abnormal return on the pay date is larger for his sample of DRIP stocks, compared to all stocks.
+In addition, similar to our result in Figure 1, he documents a significant abnormal return three
+days before the pay date. He attributes this price spike to shareholders who buy more shares on
+day -3 and then use their dividend income to settle the trades three days later. He focuses the
+remainder of his paper on potential microstructure determinants of this price spike on day -3.
+9
+II.B. Transfer Agents and the Implementation of Company-Sponsored DRIPs
+Firms commonly enlist a transfer agent to manage the ownership record for all investors
+who trade the company’s shares. The transfer agent ensures that all ownership rights are properly
+allocated to the registered shareholders of record, including voting rights, the right to new shares
+issued from stock splits, stock dividends or rights offerings, and the right to cash dividends.
+Firms also typically rely on their transfer agent to administer company-sponsored DRIPs.
+
+9 Another body of work addresses other implications of DRIPs for both asset pricing and corporate finance. For
+example, Hansen, Pinkerton, and Keown (1985), Keown, Pinkerton, and Shalini (1991), and Peterson, Peterson, and
+Moore (1987) find only a modest market reaction to the firm’s decision to adopt DRIPs. Scholes and Wolfson
+(1989) show how investors could benefit from certain discount features associated with DRIPs in the late 1980s.
+Dhillon, Lasser, and Ramirez (1992), Finnerty (1989), and Scholes and Wolfson (1989) examine firms’ use of
+DRIPs to raise capital, and conclude that DRIPs can help to mitigate the adverse price effects of new equity issues.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+8
+Details regarding the implementation of each DRIP vary somewhat across firms, and they
+are communicated to investors through a prospectus filed with the SEC or a document distributed
+by the firm or the transfer agent. Two transfer agents that manage a substantial portion of all
+DRIPs sponsored by U.S. companies are Wells Fargo Shareowner Services and Computershare
+Trust Company. These two transfer agents have made DRIP documents available to the public.10
+This DRIP documentation typically describes three important features about the purchase
+of shares involved in the DRIP: (i) how the shares are to be purchased, (ii) when the shares are to
+be purchased, and (iii) what purchase price is to be charged to DRIP participants. First, at each
+dividend distribution the company will direct the transfer agent to either purchase newly issued
+shares from the company, or purchase existing shares in the open market. Second, if the transfer
+agent is told to purchase shares in the open market, it is typically directed to purchase the shares
+as soon as possible after receiving the funds. This common wording implies a fairly strong
+incentive for transfer agents to purchase shares on the dividend pay date (as soon as the dividend
+funds are received), in order to avoid litigation regarding any potential breach of fiduciary duty.
+Third, the price applied to every DRIP participant is typically the trade-weighted average price
+that applies to all shares bought to satisfy the DRIP, if the shares are purchased in the open
+market, or the closing price on the pay date if newly issued shares are purchased from the
+company. Internet Appendix A provides excerpts from the DRIP documents for two firms, which
+illustrate the responsibilities of the transfer agent and the relevant details common in these plans.
+II.C. DRIP Participation and Broker Non-Votes in Shareholder Proxy Contests
+We conjecture that the existence and implementation of company-sponsored DRIPs is a
+major force behind the pay date effect documented in this study. DRIP firms with a higher
+
+10 The web site for Computershare is https://www-us.computershare.com/investor/plans/planslist.asp?stype=drip,
+and the web site for Wells Fargo is https://www.shareowneronline.com/UserManagement/DisplayCompany.aspx.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+9
+dividend yield and/or greater shareholder participation in their DRIP should have greater demand
+for their shares on the pay date, since the transfer agent must buy more shares to implement the
+DRIP. However, in designing tests of this conjecture, we are limited by the fact that no firmspecific data are available on the shareholder participation rates in company-sponsored DRIPs.11
+Given this limitation, we pursue two approaches to examine how the temporary demand
+induced by DRIPs affects the pay date effect. Our first approach uses a simple DRIP indicator
+variable as a proxy for the elevated demand on the pay date for DRIP firms versus non-DRIP
+firms. Our second approach relies on two common features of company-sponsored DRIPs to
+develop a firm-specific proxy for cross-sectional variation in DRIP participation rates.
+One feature is that roughly 95 percent of all DRIP firms limit the maximum dollar
+dividend amount that any individual shareholder can apply to purchase more shares through the
+DRIP. The typical limit ranges from $1,000 to $25,000 per quarter, which effectively excludes
+financial institutions, so that only retail investors can participate. Another feature is that firms
+require investors to become registered shareholder of record, in order to participate in a DRIP.
+This requirement helps firms to manage their retail ownership, and results in all communication
+being made directly between the firm and its participating retail shareholders. It also enables the
+firm’s transfer agent to administer the DRIP directly to participating retail shareholders.
+It is noteworthy that the shares of retail investors who do not participate in a firm’s DRIP,
+or who purchase stocks with no DRIP, are normally held in “street name” in retail brokerage
+accounts. This label means that the shares are registered in the name of the brokerage firm
+through which the stock is bought, rather than the investor who purchased the stock. In this case,
+all communication between the company and the investor is routed through the broker. This
+
+11 We have had many conversations with companies, transfer agents, and brokerage houses to request data on firmspecific DRIP participation rates, the shareholdings of DRIP participants, and the timing and pricing of purchases
+made in the implementation of DRIPs. None of these entities are willing to share any data or discuss their DRIPs.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+10
+practice gives the brokerage house control over details involving shareholder rights for their
+retail customers, and reduces the cost of providing brokerage services. The typical brokerage
+house charges a fee of several hundred dollars to retail clients who ask to become shareholders of
+record, in order to discourage such requests. As a result of this practice, a small number of retail
+brokerage houses operate as the shareholders of record on behalf of most retail investors who do
+not participate in DRIPs, as well as retail investors who purchase stocks with no DRIP.
+Given the above features of DRIPs, we know that an increase in DRIP participation will,
+ceteris paribus, result in an increased proportion of shares held by retail investors who are
+shareholders of record. This discussion motivates our proxy for the firm’s DRIP participation
+rate as the proportion of shares held by registered retail shareholders each quarter. Figure 3
+illustrates our two-step process to identify this proportion of registered retail shareholders. The
+first step is to obtain the proportion of shares held by all retail investors. We accomplish this first
+task by subtracting (from one) the proportion of shares held by financial institutions that file
+13F’s each quarter. The second step requires that we identify the smaller proportion of shares
+held by retail investors who are registered shareholders of record. This second task is achieved
+by estimating its complement: the proportion of shares held by retail investors who are not
+registered shareholders of record (i.e., who hold their shares in street name).
+For this second step, we use panel data on shareholder votes in proxy contests to elect
+members of the firm’s board of directors. Importantly, these voting data include the category of
+broker non-votes, which reflects the proportion of a firm’s shares that are held in street name by
+brokerage firms on behalf of non-voting shareholders. This proportion of shares classified as
+broker non-votes serves to measure the fraction of a firm’s shares held by non-registered retail
+Electronic copy available at: https://ssrn.com/abstract=2172448
+11
+shareholders, because: (a) these shares are held in street name (i.e., they are not registered), and
+(b) typical retail shareholders do not vote their shares, while most institutions vote their shares.
+12
+Given these data on broker non-votes, we can estimate the proportion of shares
+outstanding that are held by registered retail shareholders each quarter by subtracting from one:
+(i) the proportion of shares held by financial institutions, and (ii) the proportion of remaining
+shares held by non-registered retail shareholders (measured by broker non-votes), as follows:
+Partin = 1 - Pct_INSTin - Broker_Nonin; (1)
+where Pct_INSTin = percent of shares outstanding for stock i held by financial institutions
+during quarter n, obtained from the firms’ quarterly 13F filings;
+Broker_Nonin = percent of shares outstanding classified as broker non-votes
+for stock i during quarter n.
+The remaining shares held by registered retail investors include the shares of DRIP participants.
+We use this proxy to test two predictions behind the price pressure hypothesis. First,
+because Partin includes the proportion of shares held by DRIP participants, it should be higher
+for DRIP firms than for non-DRIP firms, ceteris paribus. Second, if Partin is a meaningful proxy
+for the additional demand for shares on the dividend pay date due to higher DRIP participation,
+then Partin should be related to abnormal returns on the pay date, AR(0), for the subsample of
+DRIP firms. In contrast, for firms with no DRIP, this proxy (Partin) has no bearing on DRIP
+participation or the demand for shares on the pay date, and should thus be unrelated to AR(0).
+13
+
+12 The company, Broadridge Financial Solutions, processes the proxy votes for over 90 percent of public
+companies and mutual funds in North America. In a recent study in collaboration with Pricewaterhouse
+Coopers (PwC), they report that roughly 70 percent of the shares held by retail investors are not voted, while
+only 10 percent of institutional shares are not voted (see Broadridge and PwC, 2013).
+13 Our proxy for DRIP participation is subject to some measurement error. For example, any institutional shares
+that are not registered and not voted (i.e., that appear in both Pct_INST and Broker_Non) are ‘double counted’ in
+Equation (1), resulting in a downward bias for our proxy. We have also adjusted for this potential bias by adding
+10% of Pct_INSTin back into Partin (see footnote 12). Our results are not affected by this adjustment.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+12
+III. Data and Variables
+III.A. Data
+We analyze daily returns and trading volume for all NYSE, AMEX, and NASDAQ
+common stocks (CRSP share code 10 or 11) during the period, July 1975 through December
+2012. We examine benchmark-adjusted abnormal returns to measure stock price performance
+(see Daniel, Grinblatt, Titman, and Wermers, 1997). The daily abnormal return is defined as the
+difference between the actual return on a stock and the return on an equally weighted portfolio of
+all firms in the same size and book-to-market quintiles, obtained from Russ Wermers’ website.
+14
+We obtain the pay dates of all cash dividends from CRSP (distcd = 1200 - 1299). We
+apply the screens in Ogden (1994) to keep all dividend events for which: (a) the number of days
+between the ex-dividend day and the pay date is at least 10 and no more than 45; (b) the number
+of days between the ex-dividend day and the record date is at least 2 and no more than 7; and (c)
+there are at least 20 days between a firm’s consecutive dividend pay dates.
+15
+We have obtained annual lists of DRIP firms since 1996 from the American Association
+of Individual Investors (AAII). For 2012, the AAII list is almost identical to an analogous list of
+DRIP firms from Morningstar (97% of these DRIP firms appear on both lists). This cross-check
+validates the accuracy of the AAII lists over the recent period. However, from 2007 to 2008 the
+AAII lists indicate an unrealistic increase of 230 new DRIP firms, from a total of 392 to 622.16
+We failed to find any reports in Factiva that corroborate this increase in 2008, suggesting
+that the AAII lists omit a large number of firms with DRIPs prior to 2008. Thus, we restrict our
+sample to the years 2008 - 2012 for our main analysis, where we compare the behavior of DRIP
+
+14 Portfolio assignments for NYSE, AMEX, and NASDAQ stocks from CRSP are available since July 1975, based
+on the approach in Wermers (2003), at http://www.smith.umd.edu/faculty/rwermers/ftpsite/Dgtw/coverpage.htm.
+15 These screens help to ensure that we ignore events with coding errors, and reduce the impact of ex-dividend day
+price effects on the pay date price effect. They eliminate 15,068 of the 232,322 events in the sample since 1975.
+16 The total number of company-sponsored DRIPs on the AAII list ranges from 600 - 1,300 in the years since 1996.
+However, roughly half of all DRIPs each year are sponsored by mutual funds, which are excluded in our analysis.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+13
+firms versus non-DRIP firms and thus require accurate lists of both types of firms. In Internet
+Appendix B, we show that our main results are robust over the extended period since 1996.
+Furthermore, in our analyses that focus on only DRIP stocks, we examine the extended period,
+1996 - 2012, for which we have the accurate lists of DRIP stocks from AAII.
+III.B. Variables
+We begin by examining the following (cumulative) abnormal returns measured over five
+different portions of the 21-day event window, (-10,+10), as well as the ex-dividend date:
+Return Measures around the Dividend Pay Date:
+1) AR(-3)in = abnormal return for firm i on day -3, before the pay date in quarter n;
+2) AR(0)in = abnormal return for firm i on day 0, the pay date in quarter n;
+3) CAR(0,+1)in = cumulative abnormal return over days 0 and +1;
+4) CAR(+2,+10)in = cumulative abnormal return over days +2 through +10;
+5) CAR(0,+10)in = cumulative abnormal return over days 0 through +10;
+6) AR(ex-div)in = abnormal return on the ex-dividend date for firm i in quarter n;
+7) AR(0)in - AR(ex-div)in = difference between AR(0) and AR(ex-div);
+ where AR(t)in = abnormal benchmark-adjusted return for stock i on day t relative to the
+dividend pay date in quarter n.
+The timing of the first five measures is dictated by the evidence in Figure 1, which indicates
+significant positive abnormal returns on day -3 and day 0, and a significant negative abnormal
+return on day +2 followed by a series of smaller but significant negative abnormal returns in the
+ensuing days over the following two weeks (days +2 through +10).
+Explanatory variables:
+1) DRIPin = 1 if firm i has a company-sponsored DRIP in quarter n, or 0 otherwise;
+2) Sizein = the market capitalization for firm i on day -10, two weeks prior to the
+ pay date in quarter n, where market capitalization is taken from CRSP;
+Electronic copy available at: https://ssrn.com/abstract=2172448
+14
+3) Div_Yieldin = the percentage dividend yield for firm i, computed as the cash dividend
+ amount from CRSP divided by the firm’s closing stock price on day -10,
+ two weeks before the pay date in quarter n, and multiplied by 100;
+4) Pct_INSTin-1 = the percentage of total shares outstanding for firm i owned by institutional
+ investors during the previous quarter (n-1), taken from 13F filings;
+5) Spreadin = the closing bid-ask spread for firm i, taken from CRSP, as a percentage of
+ the closing price on day -10, two weeks prior to the pay date in quarter n;
+6) Log_Hiloin = the intraday stock return volatility for firm (i), measured as the natural log
+ of the ratio of the daily high and low prices on day -10, multiplied by 100.
+These explanatory variables are known at least two weeks prior to the pay date. Thus, the results
+in this paper lead to predictive trading strategies that can easily be implemented.
+We examine three portfolios of stocks that vary in terms of dividend yield and the limits
+to arbitrage that they face. These portfolios are generated by first independently sorting all
+dividend-paying stocks each quarter by: (i) dividend yield, (ii) institutional ownership in quarter
+n-1, and (iii) the percent spread on day -10. Then we construct portfolios I - III as follows:
+ I (All_Stocks): All dividend-paying stocks each quarter;
+ II (High_DY): Top 33% of all dividend-paying stocks each quarter by dividend yield;
+ III (Hard_Arb): Top 33% of all dividend-paying stocks each quarter by dividend yield,
+ bottom 33% by institutional ownership, and top 33% by spread.17
+IV. Main Results: The Pay Date Effect
+IV.A. Abnormal Returns for the Subsets of DRIP Stocks and Non-DRIP Stocks
+Table 1 provides the average firm event returns over the five time frames defined above,
+for the subsets of DRIP stocks and non-DRIP stocks in the first portfolio (I) that includes all
+dividend-paying firms each quarter. Table B.1. of Internet Appendix B provides analogous
+results for portfolios II (High_DY) and III (Hard_Arb). We present seven sets of means for: (1)
+all stocks in the portfolio, (2) DRIP stocks, (3) non-DRIP stocks, (4) the difference of means
+
+17 Other studies that use institutional ownership or transaction costs to examine the influence of limits to arbitrage
+on stock return performance include Asquith et al. (2005), Berkman et al. (2009), Boehme et al. (2006), Diether et
+al. (2002), Nagel (2005), and Sadka and Scherbina (2007).
+Electronic copy available at: https://ssrn.com/abstract=2172448
+15
+across DRIP stocks versus non-DRIP stocks, and (5) - (7) the analogous results for a subset of
+matched pairs of DRIP firms versus non-DRIP firms within the portfolio.
+The subset of matched pairs is generated every quarter, by first requiring matched firms
+to be in the same Fama-French five-industry classification, and then using logistic propensity
+scoring based on the following four firm characteristics: Log_Sizein, Div_Yieldin, Pct_Instin-1,
+and Spreadin. These four attributes regularly enter the quarterly logistic regressions with
+significant coefficients, while Log_Hiloin is rarely significant and is thus omitted from the logit
+model. We compute the average returns in Table 1, using a panel regression of each return
+measure on a constant term, with standard errors clustered by firm (i) and quarter (n).
+First consider the mean abnormal returns around the pay date for all dividend-paying
+stocks, in the left column of Table 1. Results indicate that an average of 1,169 U.S. stocks pay
+dividends each quarter. These stocks have a mean AR(-3) of 13 bp, a mean AR(0) of 24 bp, and
+a mean CAR(0,+1) of 31 bp. This price increase is completely reversed over the following two
+weeks, with a mean CAR(+2,+10) of -39 bp. All of these mean ARs and CARs are significantly
+different from zero. Aggregating the CAR(0,+1) and the subsequent reversal, CAR(+2,+10), we
+obtain a mean CAR(0,+10) of -9 bp, which is not significantly different from zero (t-ratio =
+-0.4). This evidence supports the temporary price pressure hypothesis.
+The next three sets of results in of Table 1 compare the analogous price patterns for the
+subsets of all DRIP stocks versus all non-DRIP stocks. This comparison indicates that the mean
+AR(0) and CAR(0,+1) are both significantly larger for DRIP firms versus non-DRIP firms.
+Importantly, for both DRIP stocks and non-DRIP stocks, the negative return reversal following
+the pay date effect, CAR(+2,+10), completely offsets the positive price spike around the pay
+date, so that the mean CAR(0,+10) is insignificant for both sets of firms. This evidence again
+Electronic copy available at: https://ssrn.com/abstract=2172448
+16
+indicates a price spike around the pay date for each set of firms that is completely neutralized
+over the following two weeks, further supporting the temporary price pressure hypothesis.
+Finally, the analysis of matched pairs reported on the right side of Table 1 controls for
+differences in firm characteristics, and yields similar results. For example, the subset of matched
+DRIP stocks has a mean AR(0) of 53 bp, which is significantly larger than the mean AR(0) of 13
+bp for the matched set of non-DRIP stocks. The mean CAR(0,+1) for the matched pairs of DRIP
+stocks versus non-DRIP stocks displays comparable behavior. Once again, the price spike for
+both subsets of matched stocks is completely reversed over the following two weeks.
+At the bottom of Table 1, we also present the mean abnormal return on the ex-dividend
+date, along with the mean difference between the abnormal returns on the pay date versus the exdate.18 For the subset of DRIP stocks, the mean AR(0) on the pay date is significantly larger than
+the mean AR on the ex-date. In contrast, for the subset of non-DRIP stocks, the mean AR(0) on
+the pay date is smaller than that on the ex-date, although this difference is not significant.
+Table B.1 of Internet Appendix B provides similar results for the successively smaller
+portfolios with a higher dividend yield (II) and greater limits to arbitrage (III). As we proceed to
+portfolios II and III, the price run-up and reversal around the pay date (AR(0), CAR(0,+1), and
+CAR(+2,+10)) grow larger in magnitude, and the associated mean differences across DRIP
+stocks versus non-DRIP stocks become larger and more significant. These results corroborate the
+evidence in Table 1 and Figure 2.
+IV.B. Correlations across Abnormal Returns around the Pay Date
+Table 2 presents the correlations across the abnormal return measures that reveal upward
+price pressure around the pay date (AR(0) and CAR(0,+1)) and the subsequent price reversal
+
+18 Hartzmark and Solomon (2013) provide evidence of temporary price pressure during the month that dividends
+are expected, which is followed by a reversal in the following month. They focus on the abnormal returns around the
+ex-dividend date, and do not consider the pay date effect or the impact of DRIPs on their results.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+17
+following the pay date (CAR(+2,+10)). Each quarter we first compute the pairwise cross
+sectional correlations across these return measures for all dividend-paying stocks in portfolio I.
+We then calculate the time series mean of every pairwise correlation across all quarters, and
+present the results in Table 2. Mean Pearson correlations are provided above the diagonal and
+mean Spearman correlations are below the diagonal. Table B.2. of Internet Appendix B presents
+the analogous results for portfolios II and III.
+The correlations of interest are highlighted in the shaded areas of Table 2. These results
+indicate that the cumulative abnormal return around the pay date (CAR(0,+1)) is negatively
+correlated with the cumulative abnormal return over the following two weeks (CAR(+2,+10)).
+Furthermore, the magnitudes of these negative correlations increase as we proceed from portfolio
+I in Table 2, to consider the finer subsets of stocks in Portfolios II and III with a higher dividend
+yield and greater limits to arbitrage, in Table B.2. These results reinforce the evidence in Table 1
+and Table B.1., to further indicate a systematic tendency for stock prices to increase around the
+pay date and reverse over the following two weeks, consistent with the price pressure hypothesis.
+IV.C. Firm Characteristics for the Subsets of DRIP Stocks and Non-DRIP Stocks
+Table 3 presents the average firm characteristics for the subsets of all DRIP stocks and
+non-DRIP stocks in portfolio I. Columns 2 - 4 show that the average DRIP firm is significantly
+larger in size, and has smaller spreads and lower return volatility, compared with the average
+non-DRIP firm.
+19 These relative attributes of the DRIP firms versus non-DRIP firms apparent in
+Table 3 remain fairly stable across the successively smaller subsets of DRIP firms and non-DRIP
+firms in portfolios II and III, provided in Table B.3. of Internet Appendix B. Importantly, this
+analysis shows that the DRIP firms responsible for the pay date effect are different from the
+
+19 The last three columns of Table 3 present the results for the matched pairs analysis. As expected, three of the four
+matching variables (firm size, institutional ownership, and spread) are not significantly different across the matched
+pairs. On the other hand, the mean difference for the dividend yield is significant, but small in magnitude (at 5 bp).
+Electronic copy available at: https://ssrn.com/abstract=2172448
+18
+typical firms involved in many other anomalies. Relative to non-DRIP firms, DRIP firms tend to
+be larger, and have higher institutional ownership, smaller spreads, and lower volatility.
+V. DRIPs, Demand or Supply, and the Pay Date Effect
+V.A. Demand for Shares: DRIPs, DRIP Participation, and the Pay Date Effect
+V.A.1. DRIPs and the Pay Date Effect
+This section examines how the pay date effect depends upon cross sectional variation in
+demand for shares around the pay date. We begin by using a DRIP indicator variable as a proxy
+for the elevated demand for DRIP firms versus non-DRIP firms, to explore the relation between
+AR(0) and firm attributes for all dividend-paying stocks over the period, 2008 - 2012, as follows:
+AR(0)in = β0 + β1 DRIPin + β2 Div_Yieldin + β3 Log_Sizein + β4 Pct_INSTn-1 + β5 Log_Hiloin + εin. (2)
+In Table 4, we present the results from estimating this panel regression model, with standard
+errors clustered by firm (i) and quarter (n). The main variable of interest is the DRIP dummy,
+which reveals a significant coefficient of 0.326 (t-ratio = 5.2). This result indicates that the
+abnormal return on the pay date (AR(0)) is approximately 33 bp higher for DRIP stocks relative
+to non-DRIP stocks, after controlling for other firm characteristics. The coefficients of the firm
+characteristics also indicate a significantly higher AR(0) for firms that face greater demand for
+shares on the pay date (due to a higher dividend yield), as well as for firms that face more severe
+limits to arbitrage (with smaller firm size, lower institutional ownership, and higher volatility).
+20
+V.A.2. DRIP Participation and the Pay Date Effect
+We next compare these firm characteristics, as well as our proxy for DRIP participation
+and its components, across the subsets of DRIP stocks versus non-DRIP stocks. Our proxy for
+
+20 We have also estimated Equation (2) for the extended sample period covering 1996 - 2012. Results are provided
+in Table B.4. of Internet Appendix B, and are robust with respect to those in Table 4. In addition, we have estimated
+this panel using the Fama-MacBeth approach. Results are in Table B.5. of Internet Appendix B, and remain robust.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+19
+DRIP participation relies on broker non-votes rendered in proxy contests to elect board members.
+These data are available from Equilar, Inc. for the years, 2010 - 2012. For this sample period, we
+have 4,747 dividend events for firms with DRIPs and 4,987 events for firms without DRIPs.
+In Panel A of Table 5, we show that this sample of events for DRIP firms has a mean
+AR(0) that is 15 bp higher than the analogous sample for non-DRIP firms. In addition, the
+average DRIP firm has lower institutional ownership, larger size, smaller spreads, and lower
+volatility. The average dividend yield is not significantly different across these groups of firms.
+The main result of interest in Panel A of Table 5 pertains to our proxy for DRIP
+participation. As expected, the average proportion of shares held by registered retail investors
+(Partin) is significantly higher for DRIP firms than for non-DRIP firms. However, the average
+level of Partin remains large in magnitude for non-DRIP firms, at almost 21%. This result
+indicates that, for the typical firm, the group of registered retail shareholders includes many other
+investors besides those who participate in a DRIP (which must be zero for non-DRIP firms).
+This evidence suggests that there are other reasons for retail investors to become
+registered shareholders, besides DRIP participation. For example, Partin may also be associated
+with other firm attributes such as the dividend yield, size, spread, and stock return volatility. We
+explore this issue by estimating the following regression model that measures the average
+difference in our proxy for DRIP participation across the subsets of DRIP stocks versus nonDRIP stocks, after accounting for the influence of these other firm characteristics:
+Partin = α0 + α1 DRIPin + α2 Broker_Nonin + α3 Div_Yieldin + α4 Log_Sizein
+ + α5 Spreadin + α6 Log_Hiloin + εin. (3)
+The left side of Panel B in Table 5 reports the results for the sample of all DRIP stocks
+and non-DRIP stocks over the period, 2010 - 2012. The t-ratios are based on standard errors
+Electronic copy available at: https://ssrn.com/abstract=2172448
+20
+clustered by firm (i) and quarter (n). The coefficient of the DRIP indicator variable (α1) indicates
+that, after controlling for other firm characteristics, our proxy for DRIP participation is 3.8
+percent greater for DRIP firms versus non-DRIP firms (t-ratio = 3.5). In addition, this proxy is
+significantly greater for firms with a higher dividend yield, smaller size, a larger spread, and
+lower stock return volatility. We also note that, when we control for these other firm attributes,
+there is no significant relation between the proportion of shares held by registered retail
+shareholders (Partin) and the portion of non-voting shares held in street name (Broker_Nonin).
+21
+Next we test our prediction that Partin should be related to the pay date effect, AR(0)in,
+for DRIP firms, but not for non-DRIP firms. We test this prediction using the following model:
+AR(0)in = β0 + β1 DRIPin + β2 Partin + β3 DRIPin*Partin + β4 Broker_Nonin + β5 DRIPin*Broker_Nonin
+ + β6 Div_Yieldin + β7 Log_Sizein + β8 Spreadin + β9 Log_HiLoin + υin . (4)
+This specification allows the coefficients of two key variables, Partin and Broker_Nonin, to differ
+across the subsets of DRIP stocks versus non-DRIP stocks. We argue that higher values of DRIP
+participation (Partin) should not be informative for the subset of non-DRIP stocks (i.e., β2 = 0),
+while higher DRIP participation should imply greater demand on the pay date and a higher
+AR(0) for the subset of DRIP stocks (i.e., β3 > 0 and β2 + β3 > 0). Furthermore, after we control
+for the influence of Partin in this model, there is no reason to expect the proportion shareholders
+who do not participate in DRIPs (i.e., non-registered retail shareholders, Broker_Nonin) to have
+an independent impact on AR(0)in, for either DRIP firms or non-DRIP firms (i.e., β4 = β5 = 0).
+22
+We estimate Equation (4) for the panel including all DRIP stocks and non-DRIP stocks
+over the period, 2010 - 2012, with standard errors clustered by firm (i) and quarter (n). The
+
+21 We do not include institutional ownership in Equation (3), since inclusion of both variables, Pct_INSTin and
+Broker_Nonin, would completely explain the dependent variable (i.e., Partin = 1 - Pct_Instin - Broker_Nonin).
+22 We do not include institutional ownership in Equation (4), since inclusion of all three variables, Partin,
+Pct_INSTin, and Broker_Nonin, would result in perfect collinearity (i.e., Partin = 1 - Pct_INSTin - Broker_Nonin).
+Electronic copy available at: https://ssrn.com/abstract=2172448
+21
+results are presented on the right side of Panel B in Table 5. As expected, for non-DRIP stocks
+there is no significant relation between our proxy for DRIP participation and the pay date effect
+(i.e., β2 is insignificant). In contrast, there is a significant positive relation for DRIP stocks (i.e.,
+β3 > 0 and β2 + β3 > 0). In addition, after accounting for this association between Partin and
+AR(0)in, we find no significant relation between Broker_Nonin and AR(0)in, for either DRIP
+stocks or non-DRIP stocks (i.e., β4 = β5 = 0). We also find a significant positive relation between
+the dividend yield and AR(0) (i.e., β6 > 0). Together, this evidence indicates that greater demand
+for DRIP stocks on the pay date, due to either a higher dividend yield or greater DRIP
+participation, is associated with a significantly larger pay date effect, AR(0).23
+V.B. Demand for Shares: Changes in Shares Outstanding and the Pay Date Effect
+We would like to investigate the conjecture that there should be less price pressure for the
+subset of pay date events where firms issue more shares to meet the demand from their DRIP
+commitment, rather than buying shares on the open market. However, firms do not publicly
+disclose whether they issue new shares for the specific purpose of meeting their DRIP obligation.
+In this section we focus on the 43,635 pay date events by all DRIP firms over the period,
+1996 - 2012.24 We then use CRSP daily data on shares outstanding (SHROUT), to identify the
+subset of DRIP firms that issues new shares over two time frames: on the pay date itself (i.e., on
+day 0), and over a longer event window that begins on the pay date and extends through the rest
+
+23 We have also estimated both Equations (3) and (4) using the Fama-MacBeth approach. Results are provided in
+Table B.6. of Internet Appendix B and are robust. In addition, in untabulated results we find similar evidence when
+we estimate Equations (3) and (4) for the subsets of all DRIP stocks and all non-DRIP stocks, separately.
+24 Since we focus on only DRIP firms in this analysis, it is appropriate to rely on our accurate lists of DRIP stocks
+from AAII for the extended period since 1996. This sample of 43,635 pay dates excludes events when the DRIP firm
+changes shares outstanding during the event window, (-10,+10), due to a stock split, stock dividend, or merger. This
+screen ensures that our analysis of the pay date effect is not confused by a dilution of shares from these other events.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+22
+of the pay month. We consider these two alternative time frames, because of potential delays in
+reporting changes in shares outstanding that may be updated by CRSP only at the month’s end.
+25
+By measuring the change in SHROUT over the longer window, we are assured of
+capturing changes that may occur on day 0 to help meet the firm’s DRIP obligations, but that do
+not show up until the end of the month. Of course, this longer window may also weaken the
+power of our tests, since it is likely to include many instances where new shares are issued for
+purposes other than meeting the DRIP commitment, as well as instances where the number of
+shares outstanding is reduced (e.g., because of share repurchases).
+First consider the relative frequencies of events when DRIP firms increase SHROUT, for
+each of these two time frames. For the short window (i.e., on day 0), there is an increase in
+SHROUT on 2.5% of the pay dates. For the longer window, DRIP firms experience an increase
+in SHROUT between the pay date and the end of the pay month for 19% of the pay date events.
+Next we formally analyze whether the magnitude of the pay date effect, AR(0), is smaller
+for the subset of events for which DRIP firms increase shares outstanding, while controlling for
+other firm attributes that are associated with AR(0), as follows:
+AR(0)in = β0 + β1 DSHROUTin + β2 Div_Yieldin + β3 Log_Sizein
++ β4 Lpct_INSTin + β5 Spreadin + β6 Log_HiLoin + εin . (5)
+where DSHROUTin = is assigned a value of one for the subset of DRIP firms with an increase
+in shares outstanding, either on the pay date, or during the longer event window that
+extends from the pay date to the end of the pay month.
+This panel regression is estimated with standard errors clustered by firm (i) and quarter (n).
+
+25 According to CRSP documentation, major changes in SHROUT should be recorded on the exact day of the event
+in CRSP. However, firms may make smaller changes in SHROUT that CRSP is not aware of, perhaps to satisfy
+DRIP obligations, or for stock grants and option exercises, or share repurchases. Such smaller changes in SHROUT
+are often only recorded on the last day of the month, when CRSP receives monthly updates from its data provider.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+23
+Two sets of regression results are provided in Table 6, for the analysis that considers an
+increase in shares outstanding over the two different time frames. Our main focus is on the
+coefficient of DSHROUT in Table 6, which is significantly negative in both sets of regression
+results. When we consider increases in SHROUT on the pay date, the subset of DRIP firms that
+issues new shares has a significantly smaller average pay date effect, by roughly 19 basis points
+(i.e., β1 = -.193, t-ratio = -2.7). We also find a negative coefficient for the analogous subset of
+DRIP firms that increases SHROUT sometime over the longer window, between the pay date
+and the end of the pay month. This coefficient is smaller in magnitude and only marginally
+significant. Together, this evidence suggests that at least some firms manage their DRIP
+obligations by issuing new shares, and as a result experience significantly less price pressure on
+the pay date.
+V.C. Supply of Shares: Short Selling around the Pay Date
+If sophisticated suppliers of liquidity try to exploit the temporary price increase around
+the pay date, then we would expect the volume of short selling to increase at the time of the
+largest positive price spike, on day 0. We investigate this possibility by examining daily
+movements in abnormal short volume (ASV(t)in) over all 21 days in the event window, t =
+(-10,+10). This variable is constructed from Reg SHO data on daily short volume, which is
+available for the ten quarters covering the period, January 2005 through June 2007, as follows:
+ASV(t)in = ( SV(t)/ TV(t) )in - Normal ( SV(t) / TV(t) )in , (5)
+where ( SV(t) / TV(t) )in = ratio of short volume to total volume on day t, for stock i in quarter n;
+and Normal ( SV(t) / TV(t) )in = mean of ( SV(t) / TV(t) )in over days, t = +11 through +30.
+26
+
+26 Our daily short-sales data are obtained from the self-regulatory organizations (SROs) that made tick data on short
+sales publicly available starting on January 2, 2005, as a result of Regulation SHO. Short sales data for the NYSE
+are available through the TAQ database, and all other SROs make short sales data available on their websites. The
+end date for the regulation SHO data in our sample is July 1, 2007. Thus we rely on the earlier lists of DRIP firms
+from AAII for this period, which precedes the sample period for our main analysis, 2008 - 2012. Note that the subset
+of non-DRIP firms used in this section is classified as non-DRIP firms in 2008.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+24
+For every day in the event window, t = (-10,+10), we examine the mean values of
+ASV(t)in for the subsets of DRIP stocks versus non-DRIP stocks in two portfolios: I. All_Stocks
+and II. High_DY. For a firm event to be included in this analysis, we require at least one day
+with non-zero shorting volume in the post-announcement window, (+11, +30). This requirement
+reduces the sample to 6,451 events for portfolio I, and 2,261 events for portfolio II.
+27 As before,
+for every quarter (n) we first compute the cross-sectional average of ASV(t)n for each day (t) in
+the event window, and then we calculate the time series mean of these cross-sectional averages
+over the 10 quarters in the sample period for which we have short sales data.
+Results are plotted in Panels A and B of Figure 4 for the subsets of DRIP stocks and nonDRIP stocks, respectively, in portfolios I and II. The confidence intervals for the mean ASV(t)n
+are obtained from the standard errors of the time series means, for the subset of DRIP stocks or
+non-DRIP stocks in portfolio II.28 For the two portfolios of DRIP stocks in Panel A, average
+abnormal short volume is positive on all but one day in the event window, and it is significantly
+greater than zero on days -3 and 0. In addition, the magnitude of the spikes in abnormal short
+volume on these two days increases somewhat as we move from the portfolio of all DRIP stocks
+(I) to the subset of high yield DRIP stocks (II). For portfolio II, the average abnormal short
+volume is 1% of total volume on day 0.
+For the analogous subsets of non-DRIP stocks in Panel B of Figure 4, we find no
+evidence of abnormal short selling around the pay date. The average abnormal short volume is
+small in magnitude for each day in the event window, and it is never significantly greater than
+zero. This result is consistent with the lower temporary inflation for these subsets of non-DRIP
+
+27 We do not present the results for the third portfolio of high yield stocks that are hard to arbitrage (III), because of
+small sample sizes (there are less than 10 events per quarter for the DRIP and non-DRIP subsets of this portfolio).
+28 Similar to our other Figures, in Figure 4 the confidence interval for portfolio II is conservative for portfolio I.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+25
+stocks that is documented in Table 1 and Figure 2. Together, this evidence supports the view that
+short sellers are attracted by the predictable price spikes around the pay date for DRIP stocks, but
+their attempt to exploit this price spike is insufficient to eliminate this temporary inflation.
+V.D. The Question of Identification
+Since DRIPs are not randomly allocated among firms, there might be a concern about
+endogeneity regarding the association between DRIPs and the pay date effect documented in this
+study. We argue that it is unlikely that the pay date effect is caused by anything other than price
+pressure, which is expected to be substantially greater for stocks with DRIPs. Importantly, there
+is no systematic new information on the pay date, and no tax-induced trading. Still, it is possible
+that another firm attribute may be a causal factor behind both the presence of DRIPs and the pay
+date effect. In this light, perhaps the most relevant difference in firm characteristics between
+DRIP firms and non-DRIP firms relates to liquidity. However, Table 3 documents that DRIP
+firms tend to be larger and more liquid than non-DRIP firms. Thus, to the extent that liquidity
+may create a spurious correlation between the presence of DRIPs and the pay date effect, we
+would expect the pay date effect (AR(0)) to be smaller for DRIP firms, not larger. In addition,
+we explicitly control for differences in liquidity in our analysis and we conduct several tests
+which show that, within the sample of DRIP firms, our proxies for increased demand or supply
+of shares on the pay date display behavior consistent with the price pressure explanation.
+VI. Strategies that Trade on this Price Pattern
+VI.A. Measuring the Quarterly Performance from Three Trading Strategies
+If the pay date effect reflects a liquidity premium for the temporary increase in demand
+on the pay date by uninformed traders, then the magnitude of the average pay day effect should
+be larger during periods when the average cost of liquidity is higher. We measure time-variation
+Electronic copy available at: https://ssrn.com/abstract=2172448
+26
+in the average pay date effect by analyzing the performance over time of three alternative trading
+strategies that attempt to profit from the price spike on day 0. These strategies prescribe holding
+the subsets of DRIP stocks in each of our three portfolios, I - III, on their respective pay dates.
+The three trading strategies are implemented as follows. First, for every day in our
+sample period from 1996 - 2012, we identify every DRIP stock in each portfolio that pays a
+dividend on the next day (t).
+29 Then we prescribe buying the subset of all such DRIP stocks in
+each portfolio that pays dividends on the next day, and holding for 24 hours (i.e., use market-onclose orders to buy at the close on day t-1 and sell at the close on day t). In addition, we assume a
+short position in an ETF that mimics the S&P 500 index. This strategy earns the market-adjusted
+abnormal return, AR(0)it, for each DRIP stock (i) that pays a dividend on any given day (t).
+We measure the performance of these three trading strategies over time, as follows. First,
+for every day (t) in the sample period, we compute the average AR(0)it across the subset of DRIP
+stocks (i) in each portfolio (I - III) that pays a dividend on that given date (t). The resulting mean
+values, AR(0)_kt
+, reflect a daily time series of one-day equally weighted “abnormal profits” for
+each trading strategy, k = I - III, for all days (t) where at least one DRIP stock in each portfolio
+pays a dividend. There are some days when no DRIP stocks in a given portfolio (k) pay a
+dividend. For these days we assume no trading profits (i.e., AR(0)_kt = 0).
+Figure 5 plots the resulting stream of daily abnormal profits, AR(0)_It
+, from applying the
+first strategy that holds the DRIP stocks in portfolio I on their respective pay dates. On 3,814
+(89%) of the 4,284 trading days in the sample period, 1996 - 2012, at least one DRIP stock pays
+a dividend. This strategy produces a mean daily profit (AR(0)_It) that is positive on 2,273 (60%)
+of the 3,814 days that produce a trade, and averages 0.31% per day across all of these trade days.
+
+29 Since our trading strategies prescribe buying only the DRIP stocks in portfolios I - III, it is again appropriate to
+rely on our accurate lists of DRIP stocks from AAII for the extended period since 1996.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+27
+The second and third trading strategies yield similar results. For example, on 2,836 (66%)
+of all 4,284 trading days, at least one DRIP stock in portfolio II pays a dividend, producing a
+mean daily profit (AR(0)_IIt) that is positive on 1,780 (62%) of these trading days, and averages
+0.49% per day. Likewise, on 1,363 (32%) of all 4,284 trading days, at least one DRIP stock in
+portfolio III pays a dividend, yielding a mean daily profit (AR(0)_IIIt) that is positive on 899
+(66%) of these days, and averages 0.86% per day.30
+Next, for every quarter (n) in the sample period, we aggregate the series of daily profits,
+AR(0)_kt
+, to obtain the implied stream of cumulative quarterly abnormal profits for each trading
+strategy, CAR(0)_kn, k = I - III. Figure 6 plots the results for all quarters (n), from applying these
+three trading strategies. For the first portfolio of all DRIP stocks (I), the values of CAR(0)_In are
+positive for 60 of the 68 quarters in the sample period, and the average CAR(0)_In across all
+quarters is 17.4%. Likewise, the second portfolio of high yield stocks (II) generates a similar
+stream of cumulative abnormal profits that are positive for 63 of 68 quarters, and result in a
+somewhat larger mean quarterly CAR(0)_IIn of 21.3%. Finally, the third portfolio of stocks that
+are hard to arbitrage (III) has a quarterly profit stream that is somewhat more volatile, yet these
+cumulative abnormal profits are still positive in 62 quarters, and average 19.3% per quarter. It is
+noteworthy that, although each respective trading strategy triggers fewer days each quarter where
+a trade is made, each successive strategy produces a higher average abnormal return per day
+traded, resulting in similar cumulative abnormal returns over the typical quarter.31
+
+30 In Table D.1. of Internet Appendix D, we estimate the daily alphas from Fama-French three-factor and fourfactor models, and we obtain risk-adjusted returns that are similar to these mean daily profits, AR(0)_kt
+, k = I - III.
+31 In Figure C.1. of Internet Appendix C we show that, for portfolios II and III, the price increase tends to occur
+gradually during the trading hours on day 0. Thus, our prescribed trading strategies will capture the mean AR(0). In
+addition, we find results similar to Figure 6 when we plot the mean actual returns from these trading strategies when
+we do not subtract the daily market return (see CRet(0)_kn, plotted in Figure D.1. of Internet Appendix D).
+Electronic copy available at: https://ssrn.com/abstract=2172448
+28
+VI.B. Determinants of Time Series Movements in Cumulative Abnormal Profits
+Next we investigate the price pressure hypothesis by examining several potential
+economic determinants of these three quarterly time series of cumulative abnormal profits.
+According to the price pressure hypothesis, the pay date effect (AR(0)) represents a liquidity
+premium that is driven by a temporary increase in uninformed demand for the shares of DRIP
+stocks on the pay date. This conjecture implies that, over time, the quarterly cumulative profits
+(CAR(0)_kn, k = I - III) from these three trading strategies should be larger during periods when
+there is: (i) greater demand on the pay date due to higher dividend yields, or (ii) less liquidity as
+indicated by higher spreads for these stocks, or (iii) lower aggregate market liquidity. In addition,
+price pressure on the dividend pay date may be associated with other measures of market stress
+that might capture dividend demand, such as a recession dummy and the VIX (see Hartzmark
+and Solomon, 2013), or measures of dividend-related sentiment (see Baker and Wurgler, 2004).
+Finally, because of the observed increase in the pay date effect through time (see Figure 1), we
+also include a time trend. This discussion motivates the following time series regression model:
+CAR(0)_kn = β0 + β1 Recessionn + β2 Trendn + β3 Div_Yield_kn + β4 Spread_kn
+ + β5 Agg_LIQn + β6 VIXn + β7 Div_Premn + εn , (6)
+where CAR(0)_kn = cumulative mean abnormal profits, CAR(0)_kn, aggregated across all
+days during quarter n where any DRIP stock in portfolio k (k = I – III) pays a dividend;
+Recessionn = 1 if there is a recession (defined by NBER) in quarter n, or 0 otherwise;
+Trendn = time trend that counts the 68 quarters (n) in the sample, 1996 - 2012;
+Div_Yield_kn = mean dividend yield across the DRIP stocks in portfolio k (k = I - III),
+ during quarter n;
+Spread_kn = mean closing percent spread on day -10, two weeks before the pay date,
+ for the DRIP stocks in portfolio k (k = I - III), during quarter n;
+Agg_LIQn = quarterly average of the monthly measures of aggregate market liquidity
+ during quarter n, from Pastor and Stambaugh (2003);
+VIXn = quarterly average of the monthly values of the CBOE VIX Index;
+Electronic copy available at: https://ssrn.com/abstract=2172448
+29
+Div_Premn
+ = quarterly average of the monthly aggregate market dividend premium
+ (pdnd), from Baker and Wurgler (2006).
+Table 7 provides the regression results for the first trading strategy that involves all DRIP
+stocks, CAR(0)_In, for different permutations that include subsets of the variables in Equation
+(6). Consider the coefficients for each independent variable, in turn. First, the coefficient of the
+recession dummy (β1) is significantly positive in most permutations of this model. This evidence
+indicates that the pay date effect tends to be larger during recessions, when there is often a
+premium placed on dividends. Second, the coefficient of the time trend (β2) is significantly
+positive in all permutations, indicating that the magnitude of this price pressure has trended
+upward over time, as demonstrated in Figure 1. Third, the stream of quarterly profits is positively
+related to the average dividend yield for the portfolio of all DRIP stocks (i.e., β3 > 0). This
+outcome indicates that a higher average dividend yield is associated with significantly greater
+demand for shares on the pay date for DRIP stocks, consistent with the price pressure hypothesis.
+Fourth, the stream of cumulative profits is also positively related to movements in the average
+spread across all DRIP stocks (i.e. β4 > 0), for most permutations. This result indicates that the
+pay date effect tends to be greater during periods of lower liquidity (i.e., higher average spreads)
+for the portfolio of DRIP stocks. Fifth, we find similar evidence of a larger pay date effect during
+periods of lower aggregate liquidity (i.e., β5 < 0), which is significant for some permutations of
+the model. Finally, the VIX and the dividend premium are not significantly related to the stream
+of quarterly profits for all DRIP stocks (i.e., β6 and β7 are not significantly different from 0).
+Table D.2. of Internet Appendix B presents analogous results for the successively smaller
+subsets of DRIP stocks in portfolios II and III. The results are generally consistent with the
+evidence in Table 7. We conclude that the pay date effect tends to be larger during periods when
+Electronic copy available at: https://ssrn.com/abstract=2172448
+30
+there is greater temporary demand for these stocks, or when there is less liquidity in these stocks
+or the overall market, providing further support for the price pressure hypothesis.
+VII. Summary and Conclusions
+This study analyzes the behavior of stock prices around the dividend pay date. Consistent
+with the temporary price pressure hypothesis, we find a significant price increase on the pay date
+which is followed by a complete reversal. This temporary inflation is concentrated among stocks
+with DRIPs. It is also exacerbated for finer subsets of DRIP stocks with a higher dividend yield,
+and for high yield DRIP stocks that face greater limits to arbitrage.
+These results are corroborated by further cross-sectional and time series analyses. First,
+we show that the temporary inflation is larger for DRIP stocks that are subject to greater demand
+on the pay date, for firms with greater DRIP participation and a higher dividend yield. Second,
+we find that the pay date effect is significantly smaller for the subset of events where the DRIP
+firm issues new shares as an alternative potential means to meet their DRIP obligations. Third,
+we document that sophisticated investors act on this predictable price pressure by increasing
+their short selling activity on the pay date for DRIP firms, although the resulting supply response
+is insufficient to completely attenuate the temporary price pressure.
+We propose three trading strategies that are designed to take advantage of this predictable
+price spike on the pay date. These strategies generate a reliable stream of profits over time that is
+both economically and statistically significant. Time series variation in this stream of profits is
+positively related to the average dividend yield and bid-ask spread of the DRIP firms traded, and
+negatively related to aggregate market-wide liquidity. These profits are surprisingly large and
+consistent over time, given the nature of our proposed trading strategy, which simply exploits a
+predictable price increase around a recurring non-information event.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+31
+Finally, we suggest that DRIP firms and transfer agents should consider establishing a
+policy whereby they routinely implement their DRIP by purchasing shares over a period of
+several days following the pay date, in order to attenuate the price pressure on day 0. Such a
+policy is likely to be welfare improving from the perspective of the firm’s DRIP participants.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+32
+References
+Asquith, Paul, Parag Pathak, and Jay Ritter, 2005, Short interest, institutional ownership, and
+stock returns, Journal of Financial Economics 78 (Issue 2), 243-276.
+Baker, Malcolm, and Jeffrey Wurgler, 2004, A catering theory of dividends, Journal of Finance
+59, 1125-1165.
+__________, 2006, Investor sentiment and the cross section of stock returns, Journal of Finance
+61, 1645-1680.
+Beneish, M., and R. Whaley, 1996, Anatomy of the ‘S&P Game’: The effect of changing the
+rules, Journal of Finance 51, 1909-1930.
+Berkman, Henk., Valentin Dimitrov, Prem C. Jain, Paul D. Koch, and Sheri Tice, 2009,Sell on
+the news: Differences of opinion, short-sales constraints, and returns around earnings
+announcements. Journal of Financial Economics 92, 376-399.
+Blouin, Jennifer, and C. Bryan Cloyd, 2005, Price pressure from dividend reinvestment activity:
+Evidence from closed end funds, Wharton School Working Paper.
+Boehme, R., B. Danielsen, and S. Sorescu, 2006, Short sale constraints, differences of opinion,
+and overvaluation, Journal of Financial and Quantitative Analysis 41 (Issue 2), 455-477.
+Boehmer, E., and E. Kelley, 2009, Institutional investors and the informational efficiency of
+stock prices, Review of Financial Studies 22, 3563-3594.
+Broadridge and PwC, 2013, “How well do you know your shareholders?”, available at
+http://proxypulse.broadridge.com/reports/How-well-do-you-know-your-shareholders.html .
+Carnival Corporation DRIP Document, Prospectus Supplement, “Automatic Dividend
+Reinvestment Plan of Carnival Corporation,” Nov. 27, 2007, Carnival Corporation, Filed
+Pursuant to Rule 424(b)(3), Registration No. 333-106553, available at the following web site:
+https//www-us.computershare.com/Content/Download.asp?docID={4285723E-0BD1-4F6A9FA0-9EA34623625B}&cc=US&lang=en&bhjs=1&fla=1&theme=cpu.
+Chen, H., G. Noronha, and V. Singal, 2004, The price response to S&P 500 Index additions and
+deletions: Evidence of asymmetry and a new explanation, Journal of Finance 59, 1901-1930.
+Chordia, T., R. Roll, and A. Subrahmanyam, 2008, Liquidity and market efficiency, Journal of
+Financial Economics 87, 249-268.
+Daniel, Kent, Mark Grinblatt, Sheridan Titman, and Russ Wermers, 1997, Measuring mutual
+fund performance with characteristic‐based benchmarks. The Journal of finance 52, 1035-1058.
+DeAngelo, Harry, Linda DeAngelo, and Douglas Skinner, 2009, Corporate payout policy,
+Electronic copy available at: https://ssrn.com/abstract=2172448
+33
+Foundations and Trends in Finance, 3, 2-3, 95-287.
+Dhillon, Upinder, Dennis Lasser, and Gabriel Ramirez, 1992, Dividend reinvestment plans: An
+empirical analysis, Review of Quantitative Finance and Accounting 2, 205-213.
+Diether, Karl, Christopher Malloy, and Anna Sherbina, 2002, Differences of Opinion and the
+Cross-Section of Stock Returns, Journal of Finance 57 (No. 5), 2113-2141.
+Finnerty, John, 1989, New issue dividend reinvestment plans and the cost of capital, Journal of
+Business Research 18, 127-139.
+H.B. Fuller Company DRIP Document, 2011, A Dividend Reinvestment Plan for H.B. Fuller
+Company Common Stock, available at the following web site:
+https://www.shareowneronline.com/UserManagement/DisplayCompany.aspx.
+Hansen, R., J. Pinkerton, and A. Keown, 1985, On dividend reinvestment plans: The adoption
+decision and stockholder wealth effects, Review of Business and Economic Research 20, 1-10.
+Hartzmark, Samuel M., and David H. Solomon. 2013, The dividend month premium.
+Forthcoming, Journal of Financial Economics 109 (No. 3, September), 640-660.
+Harris, L., and E. Gurel, 1986, Price and volume effects associated with changes in the S&P 500
+list: Evidence for the existence of price pressures, Journal of Finance 41, 815-829,
+Holthausen, R., R. Leftwich, and D. Mayers, 1990, Large-block transactions, the speed of
+response, and temporary and permanent stock-price effects, Journal of Financial Economics 26,
+71-95.
+Kaul, A., V. Mehrotra, and R. Morck, 2000, Demand curves for stocks do slope down: New
+evidence from an Index Weights Adjustment, Journal of Finance 55, 893-912.
+Keown, A., J. Pinkerton, and P. Shalini, 1991, “Market reaction to the formulation of automatic
+dividend reinvestment plans,” Review of Economics and Finance 26 (Spring), 48-58.
+McLean, R. David, and Jeffrey Pontiff, 2012, Does academic research destroy stock return
+predictability? Journal of Finance, forthcoming.
+Mikkelson, W., and M. Partch, 1986, Valuation effects of security offerings and the issuance
+process, Journal of Financial Economics 15, 31-60.
+Mitchell, Mark, T. Pulvino, and Erik Stafford, 2002, Limited arbitrage in equity markets, Journal
+of Finance 62, (No. 2, April), 551-584.
+__________, 2004, Price pressure around mergers, Journal of Finance 59, (No. 1, February),
+31–63.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+34
+Nagel, Stefan, 2005, Short Sales, Institutional Investors and the cross-section of stock returns,
+Journal of Financial Economics 78 (Issue 2), 277-309.
+Ogden, Joseph P., 1994, A dividend payment effect in stock returns, Financial Review 29, 3,
+345-369.
+Pettway, Richard, and R. Phil Malone, 1973, Automatic dividend reinvestment plans of
+nonfinancial corporations, Financial Management 2, 4, 11-18.
+Peterson, Pamela P., D. R. Peterson, and N. H. Moore, 1987, The adoption of new-issue dividend
+reinvestment plans and shareholder wealth, Financial Review 22, 221-232.
+Sadka Ronnie, and Anna Scherbina, 2007, Analyst disagreement, mispricing, and liquidity,
+Journal of Finance 62, 2367-2403.
+Schleifer, A., 1986, Do demand curves for stock slope down? Journal of Finance 41, 579-590.
+Scholes, Myron, 1972, The market for corporate securities: Substitution versus price pressure
+and the effects of information on share price, Journal of Business 45, 179-211.
+Scholes, Myron, and Mark Wolfson, 1989, Decentralized investment banking: The case of
+discount dividend-reinvestment and stock-purchase plans, Journal of Financial Economics 23, 7-
+35.
+Schwert, G. William, 2003, Anomalies and market efficiency, Handbook of the Economics of
+Finance, Chapter 15, Ed., G. M. Constantinides, M. Harris, and R. Stulz, Elsevier Science B. V.
+Stambaugh, Robert, Jianfeng Yu, and Yu Yuan, 2012, The short of it: Investor sentiment and
+anomalies,” Journal of Financial Economics (104), 288-302.
+Wermers, Russ, 2003, Is money really smart: New evidence on the relation between mutual fund
+flows, manager behavior, and performance persistance, University of Maryland Working paper.
+Yadav, Vijay, 2010, The settlement period effect in stock returns around the dividend payment
+days, INSEAD Working paper.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Figure 1. Mean Abnormal Returns and Trading Volume around the Dividend Pay Date
+1975
+1975
+1975
+1975
+1975
+1975
+1975
+1975
+1975
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+1985
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+Mean AR(t), in %
+10 Days Before and After Dividend Pay Date
+1975-1984
+1985-1994
+1995-2004
+2005-2012
+ L95: 05-12
+U95: 05-12
+Panel A. Mean Abnormal Returns around Dividend Pay Dates for Last Four Decades
+Panel A plots the mean abnormal returns for all 21 days in the event window, t = (-10,+10), around the dividend pay
+date (on day 0) for each 10-year period since 1975. Daily abnormal returns (AR) are obtained by subtracting the
+return on a benchmark portfolio matched to each stock by size and book-to-market. Panel B plots the analogous
+patterns in the adjusted rank of volume (RVol), obtained by ranking the 21 days in each window by trading volume,
+and adjusting these ranks to range from -0.5 to +0.5 (i.e., RVol(t) = Rank(t) / 21 - 0.5). First, every quarter we select
+the top tercile of stocks by dividend yield. Second, every quarter we compute the cross-sectional mean AR(t) and
+RVol(t) for each day (t) in the event window. Third, for each day in the window, we compute the time series mean
+of the cross-sectional means across all quarters in every ten-year period since 1975. The 95% confidence interval is
+plotted for the mean AR(t) and RVol(t) from the most recent decade, since this period has the widest interval.
+-0.04
+-0.02
+0
+0.02
+0.04
+0.06
+0.08
+0.1
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+Mean Rvol(t)
+10 Days Before and After Dividend Pay Date
+1975-1984
+1985-1994
+1995-2004
+2005-2012
+ L95: 05-12
+U95: 05-12
+Panel B. Mean Abnormal Volume around Dividend Pay Dates for Last Four Decades
+35
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Figure 2. Mean CARs around Dividend Pay Date for DRIP Stocks or Non-DRIP Stocks
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+-0.5
+0
+0.5
+1
+1.5
+-10 -5 0 5 10 15 20 Percent
+10 Days Before and 20 Days After Dividend Pay Date
+Panel A. Mean CARs for Subsets of DRIP Stocks in Three Portfolios
+All_Stocks
+High_DY
+Hard_Arb
+This Figure plots mean cumulative abnormal returns (CARs) across all 31 days in the event window, (-10,+20),
+around the dividend pay date (on day 0), for the DRIP stocks or non-DRIP stocks in three portfolios. We first
+independently sort all dividend-paying stocks each quarter by dividend yield, institutional ownershp in the
+prior quarter, and the spread as a percent of the closing price on day -10. Then we select three portfolios:
+ I. All_Stocks = all dividend-paying stocks each quarter;
+ II. High_DY = the top 33% of all dividend-paying stocks each quarter by dividend yield;
+ III. Hard_Arb = top 33% by dividend yield, bottom 33% by institutional ownership, and top 33% by spread.
+Next, daily abnormal returns are computed by subtracting the return on a benchmark portfolio matched to
+each stock by size and book-to-market ratio. Then, for the DRIP stocks or non-DRIP stocks in each portfolio,
+we compute the cross-sectional average CARs for all 31 days in the event window, during every quarter in the
+period, 2008 - 2012. Finally, for each portfolio we compute the time series mean of these cross-sectional
+averages across all quarters. Panels A and B plot the resulting mean CARs for the DRIP stocks and non-DRIP
+stocks, respectively, in each portfolio.
+-0.5
+0
+0.5
+1
+1.5
+-10 -5 0 5 10 15 20
+Percent
+10 Days Before and 20 Days After Dividend Pay Date
+All_Stocks
+High_DY
+Hard_Arb
+Panel B. Mean CARs for Subsets of Non-DRIP Stocks in Three Portfolios
+36
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Figure 3. Proxy for Firm-Specific DRIP Participation Rates
+This Figure illustrates the construction of our quarterly proxy for firm-specific DRIP participation rates,
+as the proportion of shares outstanding held by registered retail investors:
+ Partin = 1 - Pct_INSTin - Broker_Nonin , (1)
+ where Pct_INSTin = percent of shares outstanding for stock (i) held by financial institutions
+ during quarter (n), obtained from the firms’ quarterly 13F filings;
+ Broker_Nonin = percent of shares outstanding classified as broker non-votes for stock (i)
+during quarter (n).
+We proxy a firm’s DRIP participation rate each quarter, by estimating the proportion of the firm’s shares
+held by retail investors who are registered shareholders of record, since a basic requirement for investors
+to participate in a DRIP is to register their shares. The flow chart below shows that we construct this
+measure as the proportion of shares that remain after subtracting: (i) shares held by financial institutions,
+and (ii) shares classified as broker non-votes in proxy contests to elect the firm’s board members (i.e.,
+non-voting shares held in street name). It is appropriate to begin by subtracting institutional ownership
+and thereby focus on retail investors, since institutions are excluded from participating in most DRIPs. It is
+also appropriate to further subtract broker non-votes as an estimate of the proportion of non-registered
+retail shareholders, since typical non-participating retail shareholders hold their shares in street name and
+do not vote their shares. After subtracting this proportion of non-registered retail investors, the remaining
+shares held by registered retail investors include the shares of DRIP participants.
+Shares
+Outstanding
+Institutional
+Shareholders
+Retail
+Shareholders
+Non-Registered
+Retail
+Shareholders
+Registered
+Retail
+Shareholders
+DRIP
+Participants
+Others
+Broker Non-Votes
+Proxy for DRIP Participation (Parti)
+37
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Figure 4. Mean Abnormal Short Volume around the Dividend Pay Date
+-1
+-0.5
+0
+0.5
+1
+Percent
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+10 Days Before and After Dividend Pay Date
+I. All Stocks
+II. High_DY
+L95 - II
+U95 - II
+Panel A. Abnormal Short Selling for the Subsets of DRIP Stocks in Two Portfolios
+-1
+-0.5
+0
+0.5
+1
+Percent
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+10 Days Before and After Dividend Pay Date
+I. All Stocks
+II. High_DY
+L95 - II
+U95 - II
+Panel B. Abnormal Short Selling for the Subsets of Non-DRIP Stocks in Two Portfolios
+This Figure plots the mean daily movements in abnormal short volume (ASVitn) for the subsets of DRIP stocks
+versus non-DRIP stocks in two portfolios each quarter: I (All stocks) and II (High_DY). There are too few firms
+in Portfolio III (Hard_Arb) with nonzero short volume to obtain reliable results. Abnormal short volume is
+defined as: ASVitn = (SV / TV)itn - Normal(SV / TV)in , where (SV / TV)itn = short volume as a proportion of total
+volume for stock i on day t during quarter n, and Normal(SV / TV)in is the mean (SV / TV)it over days +11 - +30
+after the dividend pay date (on day 0). First, every quarter, for each day in the window, (-10,+10), we compute
+the cross-sectional mean of ASVitn across the DRIP stocks or non-DRIP stocks in each portfolio. Second, we
+compute the time series mean of these cross-sectional means over the ten quarters for which we have short
+sales data, January 2005 - June 2007. The standard error of each time series mean is then used to construct
+the 95% confidence interval for the DRIP or Non-DRIP stocks in Portfolio II, for all 21 days in the event window.
+38
+Electronic copy available at: https://ssrn.com/abstract=2172448
+-10
+-5
+0
+5
+10
+15
+20
+25
+30
+1996 1998 2000 2002 2004 2006 2008 2010 2012
+Mean AR(0)_I
+t, in %
+All Days (t) When At Least One DRIP Stock in Portfolio I Pays a Dividend, January 1996 - December 2012
+Figure 5. Time Series of Daily Profits, the Mean Market-Adjusted AR(0)_It
+,
+for the Subset of DRIP Stocks in Portfolio I that Pay Dividends on Any Date, t
+89% of all trading days in the sample period have
+≥ 1 DRIP stock in Portfolio I that pays a dividend.
+60% of these days have a mean daily AR(0)t > 0.
+The average of all mean daily AR(0)t
+ = 0.31%.
+This Figure plots the daily time series of equally weighted abnormal profits, AR(0)_It
+, obtained by averaging the daily
+abnormal returns on the dividend pay date, AR(0)it, across all stocks in Portfolio I that pay a dividend on day t. First,
+daily returns on the dividend pay date for each stock are measured from the close on day -1 to the close on day 0.
+Second, market-adjusted abnormal returns, AR(0)it, are obtained by subtracting the daily return on the S&P 500 index
+from the daily return for each stock. Third, every day (t) in the sample period, 1996 - 2012, we compute the mean of
+the cross sectional abnormal returns on the pay date, AR(0)it , across the subset of DRIP stocks in Portfolio I that pays
+a dividend on that date. We then plot this time series of daily mean abnormal returns, AR(0)_It
+, for all days (t) when
+at least one DRIP stock in Portfolio I pays a dividend. The results reflect the stream of daily abnormal profits for the
+first trading strategy that prescribes holding the DRIP stocks in Portfolio I on their respective dividend pay dates.
+39
+Electronic copy available at: https://ssrn.com/abstract=2172448
+-20
+0
+20
+40
+60
+80
+100
+120
+140
+1996 1998 2000 2002 2004 2006 2008 2010 2012
+CAR(0_kn , in %
+I. All_Stocks
+II. High_DY
+III. Hard_Arb
+Figure 6. Time Series of Quarterly Profits, the Cumulative Abnormal Returns, CAR(0)_kn
+,
+for the Subsets of DRIP Stocks in Portfolios, k = I - III, that Pay Dividends on Any Date, t, During Quarter n
+This Figure plots the quarterly time series of the CAR(0)_kn obtained by aggregating the daily cross-sectional mean
+abnormal returns on the dividend pay date, AR(0)_kt
+, across all days during every quarter for which at least one DRIP
+stock in each Portfolio (k = I - III) pays a dividend. First, daily returns on the pay date are measured from the close on
+day -1 to the close on day 0. Second, daily market-adjusted abnormal returns are obtained by subtracting the daily
+return on the S&P 500 index from the daily return for each stock. Third, every day (t), we compute the mean cross
+sectional abnormal return on the pay date, AR(0)it , for the subset of DRIP stocks in each portfolio that pays dividends
+on that date. Fourth, we compute the quarterly sum of this series of mean daily abnormal returns, AR(0)t
+, over all
+days (t) during the quarter (n) for which at least one DRIP stock in each portfolio pays a dividend. The results reflect
+the quarterly aggregate cumulative abnormal return, CAR(0)_kn
+, from the three trading strategies that prescribe
+holding the DRIP stocks in each portfolio (k = I - III) on their respective dividend pay dates during a given quarter (n).
+Avg CAR(0)_kn /qtr:
+ I: 17.4%
+ II: 21.3%
+ III: 19.3%
+
+ Avg #Firms/qtr:
+ I: 507
+ II: 235
+ III: 74
+40
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 1. Average Behavior of Stock Prices around Dividend Pay Dates
+ for the Subsets of DRIP Firms and Non-DRIP Firms in Portfolio I (All Dividend-Paying Stocks)
+(5) (6)
+DRIP Non-DRIP
+# firms per qtr 1,169 *** 507 *** 656 *** -149 *** 130 130 0
+AR(-3)in % .13 *** .12 *** .14 *** -.02 .04 .18** -.14
+AR(0)in % .24 *** .38 *** .13 ** .25 *** .53*** .13** .40 ***
+CAR(0,+1)in % .31 *** .44 *** .21 ** .24 *** .64*** .25** .39 ***
+CAR(+2,+10)in % -.39 ** -.40 ** -.39 *** -.01 -.65** -.26* -.38
+CAR(0,+10)in % -.09 .04 -.18 .23 ** -.02 -.01 .00
+AR(ex-div)in % .15 *** .13 *** .17 *** -.04 .18** .16*** .02
+AR(0)in - AR(ex-div)in .09 ** .26 *** -.04 .29 *** .35*** -.02 .37 **
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+(1) (4) (7)
+DRIP - Non-DRIP Mean Diff
+(2) (3)
+Mean Mean Mean
+Portfolio I. All Stocks All DRIP Stocks All Non-DRIP Stocks Difference of Means
+(2) - (3) Matched Pairs
+This Table presents the average abnormal returns over different time frames around the dividend pay dates for all dividend-paying stocks
+during the sample period, 2008 - 2012. The variables, AR(-3)in, AR(0)in, CAR(0,+1)in , CAR(+2,+10)in , and CAR(0,+10)in are the percent
+(cumulative) abnormal returns measured over different portions of the 21-day event window (-10,+10) around the pay date (on day 0) for
+the i
+th firm in the n
+th quarter. These abnormal returns are computed by subtracting the daily return on a benchmark portfolio matched to
+each stock by size and book-to-market. "AR(ex-div)in" is the analogous abnormal return on the ex-dividend date, and "AR(0) - AR(ex-div)"
+is the mean of the difference between AR(0)in and AR(ex-div)in. We provide seven sets of results for: (1) all stocks in Portfolio I, (2) all
+DRIP stocks, (3) all Non-DRIP stocks, (4) the difference of means across all DRIP stocks and all Non-DRIP stocks, and (5)-(7) the
+analogous results for a subset of matched pairs of all DRIP stocks and non-DRIP stocks. We describe the matching scheme in the text.
+We compute the average abnormal returns around the pay date for every portfolio, using a panel regression of each return measure on a
+constant term, with standard errors clustered by firm (i ) and quarter (n). Analogous mean abnormal returns for the subsets of DRIP firms
+and non-DRIP firms in each Portfolio are computed similarly.
+41
+Electronic copy available at: https://ssrn.com/abstract=2172448
+CAR(2,10) CAR(2,10)
+AR(0) 1.00 .69 -.02 1.00 .69 -.03 1.00 .69 -.01
+CAR(0,1) .66 1.00 -.06 .67 1.00 -.08 .65 1.00 -.06
+CAR(2,10) -.03 -.05 1.00 -.03 -.05 1.00 -.02 -.06 1.00
+Portfolio I: All Dividend-Paying Stocks All DRIP Stocks All Non-DRIP Stocks
+AR(0) CAR(0,1) AR(0) CAR(0,1) AR(0) CAR(0,1)
+Table 2. Correlations across Return Measures over Different Time Frames around the Dividend Pay Date
+CAR(2,10)
+This Table provides correlations across the return measures taken over three different time frames around the dividend pay da te: AR(0),
+CAR(0,+1), and CAR(+2,+10). We compute these correlations across all stocks, DRIP stocks, and non-DRIP stocks within Portfolio I (all dividendpaying stocks) each quarter. The mean correlations are calculated in two stages. First, every quarter we compute each pair wise cross-sectional
+Pearson or Spearman correlation across the dividend events for every group of stocks. Second, we compute the time series mea n for each
+pairwise cross-sectional correlation across all quarters in the sample period, 2008 - 2012. The standard deviation of every time series mean
+correlation is then used to construct the t-test of the null hypothesis that every mean correlation equals zero. The mean Pearson correlations are
+above the diagonal, and the mean Spearman correlations appear below the diagonal. Correlations in BOLD are significant at the .05 level.
+42
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 3. Firm Characteristics for the Subsets of All DRIP Firms and All Non-DRIP Firms
+(5) (6)
+DRIP Non-DRIP
+# firms per qtr 1,169 *** 507 *** 656 *** -149 *** 130 130 0
+Sizein (millions) $7,316 *** $12,588 *** $3,241 *** $9,347 *** $3,602*** $3,515*** $87
+Div_Yieldin % .77 *** .77 *** .77 *** .00 .66*** .71*** -.05 ***
+Pct_Instin-1 % 61.73 *** 62.71 *** 60.97 *** 1.74 60.15*** 60.77*** -.62
+Spreadin % .80 *** .58 *** .97 *** -.39 *** .82*** .86*** -.03
+Log_Hiloin % 3.76 *** 3.48 *** 3.98 *** -.50 *** 3.76*** 3.83*** -.07
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+Matched Pairs
+(7)
+Difference of Means
+(2) - (3)
+DRIP - Non-DRIP
+(2) (3) (4)
+Mean Diff
+Portfolio I. All Stocks
+(1)
+All DRIP Stocks All Non-DRIP Stocks
+Mean Mean Mean
+This Table summarizes the descriptive statistics for the main firm characteristics analyzed in this study, for the subsets of DRIP stocks
+and non-DRIP stocks in Portfolio I (All_Stocks), which includes all dividend-paying stocks each quarter over the period, 2008 - 2012.
+Sizein is market capitalization of the ith firm on day -10, two weeks prior to the nth quarterly dividend pay date (on day 0). Div_Yieldin is the
+quarterly dividend amount, as a percent of the closing price on day -10. Pct_Instin-1
+is the percent of total shares outstanding for stock i
+held by financial institutions in the previous quarter (n-1). Spreadin is the daily closing spread, as a percent of the closing share price on
+day -10. Finally, Log_Hiloin is the natural log of the ratio of the daily high to the daily low taken on day -10, presented as a percentage
+(i.e., multiplied by 100). We present seven sets of results for: (1) all stocks in Portfolio I, (2) all DRIP stocks, (3) all Non-DRIP stocks, (4)
+the difference of means across all DRIP stocks and all Non-DRIP stocks, and (5)-(7) the analogous results for a subset of matched pairs
+of DRIP stocks and non-DRIP stocks within Portfolio I. The matching scheme is described in the text. We compute the average firm
+characteristics for every portfolio, using a panel regression of each variable on a constant term, with standard errors clustered by firm (i )
+and quarter (n). Analogous mean firm characteristics for the subsets of DRIP firms and non-DRIP firms in each Portfolio, and their mean
+differences, are computed similarly.
+43
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 4. DRIPs, Firm Characteristics, and the Dividend Pay Date Effect
+Intercept β0 .694
+3.5 ***
+DRIPin β1
+.326
+5.2 ***
+Div_Yieldin β2 13.98
+2.1 *
+Log_Sizein β3 -.042
+-2.9 ***
+Pct_INSTin-1 β4 -.407
+-2.2 **
+Spreadin β5 4.54
+1.3
+Log_Hiloin β6 2.61
+2.8 **
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+Avg # Firms / qtr
+Panel R2
+1,212
+.0068
+This Table analyzes the following relation between firm characteristics and the abnormal return on the dividend
+pay date, AR(0), for all dividend-paying stocks (both with and without DRIPs) over the period, 2008 - 2012:
+AR(0)in = β0 + β1 DRIPin + β2 Div_Yieldin + β3 Log_Sizein + β4 Pct_INSTin-1 + β5 Spreadin + β6 Log_Hiloin + εin . (2)
+All variables are defined in Table 1 and Table 3. We present the results from estimating this panel regression
+with standard errors clustered by firm (i) and quarter (n).
+44
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 5. DRIP Participation, Firm Characteristics, and the Pay Date Effect, AR(0)
+Panel A. Summary Statistics for Our DRIP Participation Proxy and Firm Characteristics
+ Across the Subsets of DRIP Firms versus Non-DRIP Firms, 2010 - 2012
+Non-DRIP Firms
+0.02
+71.0
+0.713
+$1,481
+0.17
+2.8
+20.9
+8.4
+*** indicates statistical significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+DRIP Firms
+0.17
+67.4
+0.707
+Sizein (millions)
+Log_Hiloin (%) -0.4***
+Spreadin (%) 0.12 -0.05***
+Broker_Nonin (%) 2.8***
+22.0
+11.2
+Part in (%) 1.1***
+Variable Mean Difference
+AR(0)in (%) 0.15***
+2.4
+Pct_Instin-1 (%) -3.6***
+Div_Yieldin (%) -0.006
+$3,590 $2,109***
+This Table analyzes the following proxy for the participation rate in a firm's dividend reinvestment plan (DRIP):
+Partin = 1 - Pct_INSTin - Broker_Nonin;
+where Pct_INSTin = percent of shares outstanding for stock (i) held by financial institutions during quarter (n);
+and Broker_Nonin = percent of shares outstanding with proxy votes classified as broker non-votes.
+Data on broker non-votes, and thus our proxy for DRIP participation, are available for the period, 2010 - 2012.
+In Panel A, we present summary statistics for various firm characteristics, including our proxy for DRIP
+participation, across the subsamples of DRIP firms and non-DRIP firms over the period, 2010 - 2012.
+In Panel B, we estimate the following two panel regression models that describe: (i) the relation between our
+proxy for DRIP participation and firm characteristics, and (ii) the relation between the pay date effect, AR(0),
+and our proxy for DRIP participation, as well as other firm characteristics:
+Partin = α0 + α1 DRIPin + α2 Broker_Nonin + α3 Div_Yieldin + α4 Log_Sizein + α5 Spreadin + α6 Log_Hiloin + ɛin. (3)
+AR(0)in = β0
+ + β1 DRIPin + β2 Partin + β3 DRIPin * Partin + β4 Broker_Nonin + β5 DRIPin * Broker_Nonin
+ + β6 Div_Yieldin + β7 Log_Sizein + β8 Spreadin + β9 Log_Hiloin + νin . (4)
+We estimate the panel regression models in Equations (3) and (4) with standard errors clustered by firm (i) and
+quarter (n). All variables are defined in Tables 1 and 3.a
+45
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 5, continued
+Panel B. Estimation of Two Panel Regression Models:
+ Equation (3): DRIP Participation and Firm Characteristics
+ Equation (4): The Pay Date Effect, DRIP Participation, and Firm Characteristics
+Intercept α0 .596 Intercept β0 .050
+9.8 *** 0.3
+DRIPin α1 .038 DRIPin β1 -.022
+3.5 *** -0.3
+_ _
+Part in β2 -.122
+-1.1
+_ _
+DRIPin*Part in β3 .618
+2.7 **
+Broker_Nonin α2 .010 Broker_Nonin β4 .060
+0.1 0.1
+_ _
+DRIPin*Broker_Nonin β5 .324
+0.5
+Div_Yieldin α3 1.46 Div_Yieldin β6 4.61
+2.2 ** 3.5 ***
+Log_Sizein α4 -.028 Log_Sizein β7 -.002
+-7.3 *** -0.3
+Spreadin α5 10.52 Spreadin β8 3.37
+6.8 *** 0.5
+Log_Hiloin α6 -.613 Log_hiloin β9 -.676
+-4.0 *** -0.3
+_ _ β2
+ + β3 .496
+t-statistic 3.2 ***
+Panel R2
+0.148 Panel R2
+0.0045
+Avg # Firms/qtr 804 Avg # Firms/qtr 801
+*** indicates statistical significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+a In Table B.3 of Internet Appendix B, we document similar results when we estimate Equations (3) and (4) using the
+ Fama-MacBeth approach.
+Dependent Variable for (4) = AR(0) Dependent Variable for (3) = Partin in
+46
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 6. DRIPs, Changes in Shares Outstanding, and the Dividend Pay Date Effect
+Intercept β0 .666 .674
+1.5 1.5
+DSHROUTin β1 -.193 -.063
+-2.7 *** -1.7 *
+Div_Yieldin β2 29.20 29.26
+4.2 *** 4.3 ***
+Log_Sizein β3 -.026 -.026
+-1.9 * -1.9 *
+Pct_INSTin-1 β4 -.711 -.711
+-3.6 *** -3.6 ***
+Spreadin β5 3.66 3.62
+0.5 0.5
+Log_Hiloin β6 12.97 12.99
+4.3 *** 4.3 ***
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+On Pay Date (day 0) From Pay Date (day 0)
+until End of Pay Month
+Time Frame for Measuring Change in Shares Outstanding
+Number of Events
+Panel R2
+43,635
+.041
+43,635
+.041
+This Table examines the average difference in the abnormal return on the pay date, AR(0), for the subset of
+DRIP firms that increase shares outstanding (SHROUT) around the pay date, while controlling for other firm
+characteristics, as follows:
+AR(0)in = β0 + β1 DSHROUTin + β2 Div_Yieldin + β3 Log_Sizein + β4 Pct_INSTin-1 + β5 Spreadin + β6 Log_Hiloin + εin, (5)
+where DSHROUTin = 1 if the DRIP firm increases shares outstanding around the pay date, and zero otherwise.
+All other variables are defined in Table 1 and Table 3. We measure the change in shares outstanding over two
+time frames: (i) on the pay date (day 0), and (ii) over the event window that extends from the pay date to the
+end of the pay month. The latter time frame represents a conservative approach which ensures that we
+include changes in SHROUT that may occur on the pay date (day 0), but that may not be recorded by CRSP
+until the end of the month. This regression model is estimated for the sample of pay date events for all DRIP
+stocks each quarter over the period 1996 - 2012, for which CRSP shares outstanding is not missing for either
+time frame. The panel is estimated with standard errors clustered by firm (i) and quarter (n).
+47
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table 7. Determinants of Quarterly Profits from the First Trading Strategy
+Recessionn β1 11.24 8.14 6.99 4.91
+t-ratio 2.8 *** 2.2 ** 1.9 * 1.2
+Trendn β2 .24 .29 .23 .41
+t-ratio 1.9 * 2.5 ** 1.8 * 2.1 **
+Div_Yield_kn β3 85.36 74.18 70.30 62.69
+t-ratio 4.4 *** 4.0 *** 3.7 *** 3.3 ***
+Spread_kn β4 10.48 11.09 8.66 10.43
+t-ratio 2.9 *** 3.2 *** 1.9 * 1.5
+Agg_LIQn β5 -.97 -.75 -.68
+t-ratio -2.6 *** -1.9 * -1.5
+VIXn β6 .35 .41
+t-ratio 1.1 0.8
+Div_Premn
+a
+β7 -.07
+t-ratio -0.3
+.54 .59 .60 .63
+20.5 *** 20.5 *** 17.4 *** 15.1 ***
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+a
+ The models in the first three columns are estimated over the entire 68-quarter sample period, 1996-2012. The
+last column is estimated over the period, 1996-2010, due to data limitations on pdnd from Baker and Wurgler (2006).
+Adj R2
+Overall F
+This Table presents estimates for the time series regression model that analyzes determinants
+of the quarterly cumulative abnormal profits from our first trading strategy, as follows:
+ CAR(0)_In
+ = β0
+ + β1 Recessionn
+ + β2 Trendn
+ + β3 Div_Yield_In
+ + β4 Spread_In
+
+ + β5 Agg_LIQn
+ + β6 VIXn
+ + β7 Div_Premn
+ + εn . (6)
+The dependent variable, CAR(0)_In
+, is computed in two steps. First, for every day (t) in our
+sample period, 1996 - 2012, we compute the stream of average daily profits as the crosssectional mean market-adjusted AR(0)_It across all DRIP stocks in Portfolio I (all dividend-paying
+stocks) that pay dividends on that day. Second, for each quarter (n), we aggregate this stream
+of daily profits, AR(0)_It
+, across all days in which at least one DRIP stock in Portfolio I pays a
+dividend, to obtain the cumulative abnormal profit, CAR(0)_In
+, for Portfolio I. Recessionn
+is a
+dummy variable that equals one for all quarters during recessions, and zero otherwise. Trendn
+is
+a deterministic trend that counts the quarters in our sample. Div_Yield_In
+is the mean dividend
+yield in quarter n for the DRIP stocks from Portfolio I. Spread_In is the mean daily closing
+percent spread on day -10 prior to the dividend pay dates in quarter n, for the DRIP stocks in
+Portfolio I. Agg_LIQn is the aggregate market liquidity measure of Pastor and Stambaugh
+(2003), averaged across the three months during quarter n. VIXn
+is the average of the monthly
+CBOE VIX index values during quarter n. Div_Premn is the quarterly average of the monthly
+aggregate market dividend premium (pdnd), from Baker and Wurgler (2006). The Newey-West
+t-ratios appear beneath the parameter estimates.
+48
+Electronic copy available at: https://ssrn.com/abstract=2172448
+49
+Internet Appendix
+Appendix A. Excerpts from Selected Dividend Reinvestment Plans
+The following excerpts exemplify the relevant details common in DRIP documentation.
+A.1. H.B. Fuller Company DRIP Document (2011), selected excerpts:
+“As the Plan Administrator, Wells Fargo Shareowner Services, a division of Wells Fargo
+Bank, N.A., (the Plan ‘Administrator’) offers investors a simple and convenient method of
+investing in H.B. Fuller Company common stock. The Plan Administrator will apply all of the
+participants’ designated dividends … to purchase whole and fractional shares acquired under the
+Dividend Reinvestment Plan. Such purchases may be made on any securities exchange where
+such shares are traded, in the over-the-counter market or in negotiated transactions, and may be
+on such terms as to price, delivery and otherwise as the Plan Administrator may determine.
+Dividends are invested as soon as administratively possible on or following the dividend
+payable date, generally within five (5) trading days. In the case of each purchase, the price at
+which the Plan Administrator shall be deemed to have acquired H.B. Fuller common stock for
+the participant’s account shall be the weighted average price of all shares purchased plus any per
+share fees. Depending on the number of shares being purchased and current trading volumes in
+the shares, purchases may be executed in multiple transactions that may occur on more than one
+day.”
+A.2. Carnival Corporation DRIP Document (2007), selected excerpts:
+“The shares of Carnival Corporation common stock purchased under the (Dividend
+Reinvestment) Plan may be newly issued shares or shares purchased for participants in the open
+market, at Carnival Corporation’s option. The Plan currently provides that shares purchased for
+Electronic copy available at: https://ssrn.com/abstract=2172448
+50
+participants with reinvested dividends will be purchased at fair market value, as determined in
+the Plan.
+WHO ADMINISTERS THE PLAN?
+Computershare Trust Company, N.A. (the ‘Agent’), a bank unaffiliated with Carnival
+Corporation, administers the Plan. The Agent arranges for the custody of share certificates, keeps
+records, sends statements of account to participants, and makes purchases of shares of Carnival
+Corporation common stock under the Plan for the accounts of participants. The Agent will send
+each participant a statement of his or her account under the Plan as soon as practicable following
+each purchase of shares of Carnival Corporation common stock. Each statement will show (a)
+any dividends credited; (b) plan shares purchased and fractional shares allocated; (c) the cost per
+share of the purchased shares and fractional shares; (d) the number of whole shares for which
+certificates have been issued, if any; and the beginning and ending balances of whole shares and
+fractional shares … The Agent will also serve as custodian of shares purchased under the Plan to
+protect participants from loss, theft or destruction of stock certificates.
+WHAT IS THE SOURCE OF SHARES PURCHASED UNDER THE PLAN?
+Shares purchased under the Plan will come from the authorized and unissued shares of
+the Carnival Corporation common stock or from shares purchased on the open market by the
+Agent, as determined by Carnival Corporation.
+With respect to any open market purchases made under the Plan, the Agent will have full
+discretion as to all matters relating to purchases, including determination of the number of
+shares, if any, to be purchased on any day, the time of day, the price paid for such shares, the
+markets in which such shares are to be purchased …
+WHEN WILL FUNDS BE INVESTED UNDER THE PLAN?
+Electronic copy available at: https://ssrn.com/abstract=2172448
+51
+If shares are purchased from Carnival Corporation, the purchases will be made on the
+dividend payment date and such shares will be credited to participants’ accounts on the dividend
+payment date. If shares are to be purchased in the open market, the Agent is to use its best efforts
+to apply all funds received by it to the purchase of shares within 30 days of the receipt of such
+funds from Carnival Corporation …
+WHAT IS THE PURCHASE PRICE OF THE SHARES?
+If the Carnival Corporation common stock is purchased from Carnival Corporation, the
+price per share … will be the closing price for the Carnival Corporation common stock on the
+NYSE Composite Tape on the dividend payment date, as reported in THE WALL STREET
+JOURNAL or other authoritative source. The price per share for open market purchases will be
+the weighted average price paid by the Agent for all shares of Carnival Corporation common
+stock purchased by it for participants in the Plan through negotiation with the seller. No share of
+Carnival Corporation common stock will be purchased at a price in excess of current market
+prices at the time of purchase.”
+Appendix B. Robustness Tests
+B.1. Descriptive Statistics for DRIP Stocks and Non-DRIP Stocks in Portfolios II and III
+ In Tables 1 - 3 of the main text, we provide the summary statistics for the main variables
+in our analysis for the first portfolio (I: All Stocks), as well as for the subsets of all DRIP stocks
+and all non-DRIP stocks, over the sample period, 2008 - 2012. In Tables B.1 - B.3 of this
+Appendix, we present the analogous summary statistics for the second and third portfolios (II:
+High_DY and III: Hard_Arb), over the same sample period. In Table B.1., as we proceed to
+consider each successive portfolio, II and III, the price run-up and reversal around the pay date
+(AR(0), CAR(0,+1), and CAR(+2,+10)) grow larger in magnitude, and the associated mean
+Electronic copy available at: https://ssrn.com/abstract=2172448
+52
+differences across DRIP stocks versus non-DRIP stocks become larger and more significant. In
+Table B.2, the negative correlations between AR(0) or CAR(0,+1) and CAR(+2,+10) become
+larger in magnitude as we examine the finer subsets of stocks in portfolios II and III with a
+higher dividend yield and greater limits to arbitrage. Finally, in Table B.3, the subsets of DRIP
+stocks and non-DRIP stocks in portfolios II and III reveal average firm attributes that remain
+fairly stable. For example, these respective subsets of DRIP stocks tend to be larger in size, and
+have higher institutional ownership, smaller spreads, and lower return volatility, in comparison
+with non-DRIP stocks.
+B.2. Re-Estimating the Main Analysis over the Extended Period, 1996 - 2012
+In this Appendix we duplicate the comparative analysis of DRIP stocks versus non-DRIP
+stocks provided in Figure 2 and Table 4, but we analyze the extended period covering the years,
+1996 - 2012, for which we have lists of DRIP firms from AAII. As noted in the text, the AAII
+lists indicate an unrealistic increase of 230 new DRIP firms from 2007 to 2008. This increase
+strongly suggests that these lists omit a substantial number of firms with DRIPs prior to 2008. As
+a result, before 2008 the implied lists of non-DRIP firms are likely to be corrupted by the
+inclusion of many firms with DRIPs. Because of this problem with our list of non-DRIP firms, in
+our main analysis of Figure 2 and Table 4 we restrict the sample period to the years, 2008 - 2012.
+Here we analyze all dividend-paying stocks for the years, 1996 - 2012, using the AAII
+lists to distinguish DRIP stocks from non-DRIP stocks every year. However, for the earlier years
+before 2008, we pursue the conservative approach of excluding the 230 dividend-paying firms
+that the AAI lists indicate began their DRIPs in 2008. This exclusion ensures that we will not
+incorrectly include these likely DRIP firms in our list of non-DRIP firms for the earlier years.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+53
+The evidence for the extended sample period is presented in Figure B.1. and Table B.4.,
+and is similar to the results provided in Figure 2 and Table 4, respectively, in the main body of
+the paper. This evidence indicates that our major results also pertain to the longer sample period
+beginning in 1996, for which we have lists of DRIP firms from AAII.32
+B.3. Using the Fama-MacBeth Approach to Estimate the Panel Regression Models
+Tables B.5. and B.6. present the results from applying the Fama-MacBeth approach to
+estimate the panel regression models in Equations (2), (3), and (4). Equation (2) pertains to the
+relation between AR(0) and firm characteristics, which is analyzed in Table 4 over the period,
+2008 - 2012, using clustered standard errors. Equations (3) and (4) involve our proxy for DRIP
+participation, which is analyzed in Table 5 over the period, 2010 - 2012, using clustered standard
+errors. The results in Tables B.5. and B.6. are similar to the evidence in Tables 4 and 5,
+indicating that this support for the price pressure hypothesis does not depend on the technique
+used to estimate these panel regression models.
+Appendix C. The Intraday Price Pattern on the Dividend Pay Date
+In this appendix we examine the intraday pattern in price movements on the dividend pay
+date, for the subsets of DRIP stocks in Portfolios I - III. This analysis reveals whether investors
+(or their transfer agents) tend to exert price pressure at certain times during the day that dividend
+funds are distributed. We analyze intraday midquotes at five-minute intervals for the first and
+
+32 The AAII annual data on DRIP firms for the earlier years, 1996 - 2002, also provide additional information about
+certain features of these DRIPs. For example, for this sub-period, 25% of all DRIPs charged a fee for participation,
+while 7% offered the opportunity to reinvest dividends at a discount of 1% to 5% below the market price. In analysis
+not reported here, we find no evidence that the existence or magnitude of a fee or a discount affects the pay date
+effect, AR(0), for the 25% of DRIP firms that charged a fee, or the 7% of DRIP firms that offered a discount.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+54
+last 30 minutes of trading on day 0, and at thirty-minute intervals during the rest of this trading
+day. We also analyze the last three hours of the previous trading day, on day -1.33
+For each stock analyzed, we begin by computing the ratio of the midquote at every
+intraday interval (T) to the closing midquote on day 0. For each portfolio, the average intraday
+price pattern is then calculated in two stages. First, for every quarter in our sample period, 1996
+through 2009, we calculate the cross-sectional average price ratio across dividend events at every
+intraday time interval (T) during days -1 and 0. Second, we compute the time series means of
+these quarterly cross-sectional average intraday price ratios, across all quarters in the sample.
+Results are plotted in Figure C.1. for the DRIP stocks in Portfolios I - III. For each
+successive subset of DRIP stocks, the mean intraday pattern begins at a lower price point, and
+thereby reflects a larger increase on day 0. The magnitude of the price increase from the close on
+day -1 to the close on day 0 ranges from 5 basis points (bp) for the DRIP stocks in Portfolio I
+(i.e., 1 - .9995), to 40 bp for the DRIP stocks in Portfolio II (i.e., 1 - .9960), to 85 bp for those in
+Portfolio III (i.e., 1 - .9915). For portfolio I, this evidence suggests a smaller close-to-close return
+than is documented in Table 1 and Figure 2. For portfolios II and III, this evidence closely
+corresponds to the results in Table 1 and Figure 2. These results indicate that each successive
+portfolio of DRIP stocks has a larger mean abnormal close-to-close return on day 0.
+In Figure C.1., these intraday patterns of price movements reveal how the price increase
+transpires gradually throughout the trading hours on the dividend pay date, for these portfolios of
+DRIP stocks. First, prices are roughly flat during the last three hours of trading on day -1, before
+rising 10-15 bp in the last five minutes of trading. Then, for portfolios II and III, the mean
+opening midquote on day 0 is within a few basis points of the closing price on day -1, indicating
+
+33 Midquotes are analyzed rather than trade prices, because trade prices may tend to occur at the bid or the ask at
+certain times of the day (e.g., at the open or the close). See Berkman et al. (2012) for issues regarding this approach.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+55
+that the mean overnight return before day 0 is also flat for these portfolios of DRIP stocks. This
+result suggests that transfer agents do not focus their buying at the open on the dividend pay date.
+After the open on day 0, the average price for each portfolio increases gradually
+throughout the trading day, and then accelerates during the last five minutes of trading. It is
+noteworthy that a large portion of the variation in the mean close-to-close return on day 0, across
+the DRIP stocks in Portfolios I - III, appears during the last five minutes of trading. Figure C.1.
+reveals an average 5-minute price increase at the close on day 0 that ranges from roughly 10 bp
+for Portfolio I to 25 bp for Portfolio III. Together, this evidence suggests that transfer agents
+gradually buy these stocks throughout day 0, and then perhaps accelerate their purchase orders
+just before the close in an apparent attempt to complete their DRIP purchases on the pay date.
+Appendix D. Extended Analysis of the Time Series of Quarterly Profits
+This Appendix extends our analysis of the daily and quarterly time series of abnormal
+market-adjusted profits, AR(0)_kt and CAR(0)_kn, k = I - III, from our three proposed trading
+strategies that are plotted in Figures 5 and 6, respectively. First, we compute the average riskadjusted daily return for each strategy by estimating the Fama-French alpha for the daily stream
+of excess profits. Second, we analyze the quarterly stream of time series movements in actual
+profits for each strategy, without subtracting the market return. Third, we explore the robustness
+of the results from our time series regression analysis of determinants of the quarterly
+performance of the second and third trading strategies, CAR(0)_kn, k = II and III.
+D.1. Fama-French Regression on the Daily Stream of Excess Actual Profits, Ret(0)_kt -Rft
+Table D.1. provides further analysis of the risk and reward characteristics of the daily
+stream of excess profits from our three trading strategies over the extended period, 1996 - 2012.
+This Table presents the results from regressing the daily mean excess return from each strategy,
+Electronic copy available at: https://ssrn.com/abstract=2172448
+56
+(Ret(0)_kt - Rft), k = I - III, against the three daily Fama-French factors, along with the daily
+momentum factor. This Table shows that the Fama-French daily alphas from this analysis are
+very large and highly significant (alpha = 0.29% for portfolio I, 0.50% for portfolio II, and
+0.97% for portfolio III). This evidence indicates that, even after controlling for common sources
+of risk, our proposed trading strategies yield average risk-adjusted returns that range from 30 to
+100 basis points per day.
+D.2. Time Series Movements in Quarterly Actual Profits
+One conspicuous feature of Figures 5 and 6 is the presence of large spikes in the mean
+daily abnormal profits AR(0)_It and quarterly cumulative abnormal profits, CAR(0)_kn, during
+the liquidity crisis of 2008-2009. We conjecture that these spikes reflect a higher liquidity
+premium during the crisis. Here we explore the alternative possibility that these spikes in marketadjusted abnormal returns could be due to the large decline in the market during the crisis.
+In Figure D.1., we abstract from market movements by plotting the analogous time series
+of quarterly cumulative actual profits from these three strategies (CRet(0)_kn, k = I - III),
+without subtracting the market return. The use of market-on-close orders to implement these
+strategies would assure that a trader realizes these average quarterly actual returns (CRet(0)_kn)
+plotted in Figure D.1. This Figure reveals spikes in CRet(0)_kn, k = I - III, during 2008 and 2009
+that are similar to the analogous spikes in CAR(0)_kn plotted in Figure 6. Furthermore, when we
+do not subtract the market return (which is positive in most quarters), the cumulative actual
+returns in Figure D.1. tend to be higher than the analogous cumulative abnormal returns in
+Figure 6 for most quarters throughout the sample period. As a result, the cumulative actual return
+(CRet(0)_kn) averaged across all quarters is somewhat higher than the average quarterly
+Electronic copy available at: https://ssrn.com/abstract=2172448
+57
+cumulative abnormal return (CAR(0)_kn) in Figure 6, for all three strategies (i.e., 18.9% for
+portfolio I, 23.7% for II, and 20.5% for III).
+D.3. Determinants of Time Series Movements in Quarterly Profits for Portfolios II and III
+Panels A and B of Table D.2. present the results from estimating Equation (6) for the
+successively smaller subsets of DRIP stocks in portfolios II and III, respectively, over the
+extended sample period, 1996 - 2012. The four columns in each Panel provide the coefficient
+estimates for different permutations that include different combinations of the independent
+variables in Equation (6). The results are generally consistent with the evidence in Table 7, for
+the portfolio of all DRIP stocks. Consider the results for each independent variable, in turn.
+First, the coefficient of the recession dummy (β1) is positive for all permutations of the
+model estimated in Panels A and B of Table D.2., and significantly so in Panel B. This evidence
+suggests a tendency for a larger pay date effect during recessions, and thus greater cumulative
+profits for our second and third trading strategies in such times of market stress, when there is
+often a premium placed on dividend-paying stocks. Second, the coefficient of the time trend (β2)
+is positive and significant for all but one permutation of the model in Panels A and B, indicating
+a tendency for the pay date effect to grow in magnitude over time, consistent with the evidence
+in Figure 1. Third, in both Panels A and B, the average dividend yield is positively related to the
+magnitude of AR(0) for all permutations of the model (i.e., β3 > 0), and significantly so in Panel
+A, for the DRIP stocks in portfolio II. This outcome supports the view that a higher dividend
+yield for these portfolios of DRIP stocks tends to be associated with greater profits from trading
+on the pay date effect. Fourth, the stream of cumulative profits is also significantly positively
+related to time series movements in the average spread (i.e., β4 > 0), for the DRIP stocks in both
+portfolios II and III. This evidence indicates that the pay date effect is larger during periods of
+Electronic copy available at: https://ssrn.com/abstract=2172448
+58
+lower liquidity (i.e., higher spreads) for these portfolios. Fifth, the coefficient of aggregate
+liquidity (β5) is negative for all permutations of the model in Panels A and B, and marginally
+significant for one permutation in Panel A. This outcome suggests a weak tendency for the DRIP
+stocks in portfolios II and III to have a larger pay date effect during periods of lower aggregate
+market liquidity. Sixth, there is no evidence in Table D.2. of a significant relation between the
+VIX and the stream of cumulative profits from these two trading strategies. Finally, the
+coefficient of the dividend premium is positive in both Panels A and B, and significantly so in
+Panel B, indicating that the stream of profits from holding the DRIP stocks in portfolio III are
+higher during periods of greater demand for dividend-paying stocks.34
+
+34 In untabulated results, we have also estimated the quarterly time series regression model in Equation (6), using
+the quarterly cumulative actual return, CRet(0)_kn, as the dependent variable. In addition, we have also estimated
+the daily Fama-French 3-factor and 4-factor models using the daily actual excess return, Ret(0)_kt - Rft, as the
+dependent variable. Together, these results reinforce the evidence in Figure 6 and Tables 6, D.1., and D.2.
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Figure B.1. Mean ARs and CARs for DRIP Stocks or Non-DRIP Stocks: Extended Period
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+-0.5
+0
+0.5
+1
+-10 -8 -6 -4 -2 0 2 4 6 8 10 Percent
+10 Days Before and After Dividend Pay Date
+Panel A. Mean ARs for Subsets of DRIP Stocks in Three Portfolios
+All_Stocks
+High_DY
+Hard_Arb
+ L95 - Hard_Arb
+U95 - Hard_Arb
+-0.5
+0
+0.5
+1
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+Percent
+10 Days Before and After Dividend Pay Date
+Panel B. Mean CARs for Subsets of DRIP Stocks in Three Portfolios
+All_Stocks
+High_DY
+Hard_Arb
+This Figure analyzes dividend pay dates over the extended period covering 1996 - 2012. We plot the mean
+abnormal returns (ARs) and cumulative abnormal returns (CARs) across all 21 days in the event window,
+(-10,+10), around dividend pay dates (on day 0), for the DRIP or non-DRIP stocks in three portfolios:
+ I. All_Stocks = all dividend-paying stocks each quarter;
+ II. High_DY = the top 33% of all dividend-paying stocks each quarter by dividend yield;
+ III. Hard_Arb = top 33% by dividend yield, bottom 33% by institutional ownership, and top 33% by spread.
+First, daily abnormal returns are computed by subtracting the return on a benchmark portfolio matched to
+each stock by size and book-to-market ratio. Second, for the DRIP or non-DRIP stocks in each portfolio, we
+compute the cross-sectional average ARs and CARs for all 21 days, during every quarter in the period, 1996 -
+2012. Third, for each portfolio we compute the time series mean of the cross-sectional average ARs and CARs
+across all quarters. Panels A and B plot the mean ARs and CARs, respectively, for the DRIP stocks in each
+portfolio. Panels C and D plot analogous results for the non-DRIP stocks in each portfolio. The 95% confidence
+band for the ARs in the third portfolio is provided in Panels A and C, since this portfolio has the widest band.
+59
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Figure B.1., continued
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+-0.5
+0
+0.5
+1
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+Percent
+10 Days Before and After Dividend Pay Date
+All_Stocks
+High_DY
+Hard_Arb
+ L95 - Hard_Arb
+U95 - Hard_Arb
+Panel C. Mean ARs for Subsets of Non-DRIP Stocks in Three Portfolios
+-0.5
+0
+0.5
+1
+-10 -8 -6 -4 -2 0 2 4 6 8 10
+Percent
+10 Days Before and After Dividend Pay Date
+All_Stocks
+High_DY
+Hard_Arb
+Panel D. Mean CARs for Subsets of Non-DRIP Stocks in Three Portfolios
+60
+Electronic copy available at: https://ssrn.com/abstract=2172448
+0.988
+0.99
+0.992
+0.994
+0.996
+0.998
+1
+I. All Stocks
+II. High_DY
+III. Hard_Arb
+ 1:00 2:00 3:00 4:00 10:00 11:00 12:00 1:00 2:00 3:00 4:00
+ - (Day -1) - - - - - - Close Open - - - - - - - - - (Day 0) - - - - - - - - - Close
+ Time of Day (T)
+ Figure C.1. Intraday Price Pattern on the Dividend Pay Date
+This Figure plots the average pattern of price movements over the last three hours of trading on the day
+before the pay date (day -1), and all trading hours on the pay date (day 0), for the subsets of DRIP stocks in
+portfolios I - III over the period, 1996 - 2009. We analyze intraday midquotes at five-minute intervals for
+the first and last 30 minutes of trading, and at thirty-minute intervals during the rest of the trading day.
+First, for every stock we compute the ratio of the midquote at every intraday time interval (T) to the
+closing midquote on day 0. Second, for every quarter, we calculate the cross-sectional average price ratio
+across the firms in every portfolio, at every intraday interval (T). Third, for each portfolio we compute the
+time series means of these quarterly cross-sectional means, across all quarters.
+61
+Electronic copy available at: https://ssrn.com/abstract=2172448
+-20
+0
+20
+40
+60
+80
+100
+120
+140
+1996 1998 2000 2002 2004 2006 2008 2010 2012
+CRet(0)_kn, in %
+I. All_Stocks
+II. High_DY
+III. Hard_Arb
+Figure D.1. Time Series of Quarterly Profits, the Mean Cumulative Actual Return, CRet(0)_kn
+,
+for the Subsets of DRIP Stocks in Portfolios, k = I - III, that Pay Dividends on Any Date, t, During Quarter n
+This Figure plots the quarterly time series of the cumulative actual return, CRet(0)_kn
+, obtained by aggregating the
+daily cross-sectional mean actual returns on the dividend pay date, Ret(0)_kt
+, across all days in every quarter for
+which at least one DRIP stock in each Portfolio (k = I - III) pays a dividend. Daily returns are measured from the
+close on day -1 to the close on day 0. Every day (t), we first compute the mean cross sectional actual return on the
+dividend pay date, Ret(0)_kt , for the subset of DRIP stocks in each Portfolio (k = I - III) that pays dividends on that
+date. We then compute the quarterly sum of this series of daily mean actual returns, Ret(0)_kt
+, over all days (t)
+during the quarter (n) for which at least one DRIP stock in each Portfolio pays a dividend. The results reflect the
+quarterly aggregate cumulative actual return, CRet(0)_kn
+, from three separate trading strategies that prescribe
+holding the DRIP stocks in each portfolio (k = I - III) on their respective dividend pay dates during a given quarter (n).
+Avg CRet(0)_kn /qtr:
+ I: 18.9%
+ II: 23.7%
+ III: 20.5%
+
+ Avg #Firms/qtr:
+ I: 507
+ II: 235
+ III: 74
+62
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table B.1. Average Behavior of Stock Prices around Dividend Pay Dates
+ for the Subsets of DRIP Firms and Non-DRIP Firms in Portfolios II and III
+(5) (6)
+DRIP Non-DRIP
+# firms per qtr 468 *** 235 *** 230 *** 6 75 75 0
+AR(-3)in % .24 *** .18 *** .30 *** -.12 .26*** .19* .06
+AR(0)in % .46 *** .66 *** .26 ** .40 *** 1.02*** .34** .69 ***
+CAR(0,+1)in % .57 *** .74 *** .40 ** .34 *** 1.20*** .36* .84 ***
+CAR(+2,+10)in % -.54 ** -.51 * -.56 ** .05 -.31 -.27 -.04
+CAR(0,+10)in % .03 .22 -.16 .38 ** .88 .08 .80 *
+ex-div AR(0)in % .23 *** .14 ** .32 *** -.18 *** .20** .34*** -.15
+AR(0)in - AR(ex-div)in .23 *** .52 *** -.07 .58 *** .83*** .00 .83 ***
+Mean Mean Mean DRIP - Non-DRIP
+Non-DRIP Stocks in II. II. Difference of Means
+(2) - (3) II. Matched Pairs
+Mean Diff
+(2) (3) (4) (7)
+Panel A.
+Portfolio II
+Portfolio II. High_DY DRIP Stocks in II.
+(1)
+This Table presents the average abnormal returns for Portfolios II and III over different time frames around dividend pay dates for the
+sample period, 2008 - 2012. The variables, AR(-3)in, AR(0)in, CAR(0,+1)in , CAR(+2,+10)in , and CAR(0,+10)in are the percent (cumulative)
+abnormal returns measured over different portions of the 21-day event window (-10,+10) around the pay date (on day 0) for the i
+th firm in
+the n
+th quarter. These abnormal returns are computed by subtracting the daily return on a benchmark portfolio matched to each stock by
+size and book-to-market. "AR(ex-div)in" is the analogous abnormal return on the ex-dividend date, and "AR(0) - AR(ex-div)" is the mean of
+the difference between AR(0)in and AR(ex-div)in. Panel A provides the results for Portfolio II (High_DY), which includes the tercile of all
+dividend-paying stocks each quarter with the highest dividend yield. Panel B gives the analogous results for Portfolio III (Hard_Arb), which
+includes hard-to-arbitrage stocks (i.e., the subset of all dividend-paying stocks each quarter in the: (i) top tercile by dividend yield, (ii)
+bottom tercile by institutional ownership in quarter n-1, and (iii) top tercile by the percent spread on day -10). In each Panel we provide
+seven sets of results for: (1) all stocks in that portfolio, (2) DRIP stocks, (3) Non-DRIP stocks, (4) the difference of means across DRIP
+stocks and Non-DRIP stocks, and (5)-(7) the analogous results for a subset of matched pairs of DRIP stocks and non-DRIP stocks in that
+portfolio. We describe the matching scheme in the text. We compute the average abnormal returns around the pay date for every
+portfolio, using a panel regression of each return measure on a constant term, with standard errors clustered by firm (i ) and quarter (n).
+Analogous mean firm event returns for the subsets of DRIP and non-DRIP firms in each Portfolio are computed similarly.
+63
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table B.1., continued
+(5) (6)
+DRIP Non-DRIP
+# firms per qtr 195 *** 74 *** 120 *** -47 *** 24 24 0
+AR(-3)in % .43 *** .43 *** .42 *** .00 .47*** .48*** -.01
+AR(0)in % .73 *** 1.40 *** .32 ** 1.08 *** 2.08*** .56** 1.52 ***
+CAR(0,+1)in % .92 *** 1.63 *** .49 ** 1.14 *** 2.23*** .64** 1.57 ***
+CAR(+2,+10)in % -.87 *** -1.05 ** -.75 *** -.30 -.90 -.81** -.10
+CAR(0,+10)in % .04 .55 -.27 .82 ** 1.32 -.17 1.47 *
+ex-div AR(0)in % .48 *** .48 *** .49 *** -.01 .38* .46** -.09
+AR(0)in - AR(ex-div)in .25 * .93 *** -.16 1.09 *** 1.71*** .10 1.61 ***
+Mean DRIP - Non-DRIP Mean Diff
+Portfolio III. Hard_Arb DRIP Stocks in III. Non-DRIP Stocks in III. III. Difference of Means
+(2) - (3) III. Matched Pairs
+(1) (2) (3) (4) (7)
+Mean
+Panel B.
+Portfolio III
+Mean
+64
+Electronic copy available at: https://ssrn.com/abstract=2172448
+ for Portfolio II (High_DY) and Portfolio III (Hard_Arb)
+Panel A.
+CAR(2,10) CAR(2,10) CAR(2,10)
+AR(0) 1.00 .69 -.03 1.00 .70 -.05 1.00 .68 -.02
+CAR(0,1) .65 1.00 -.10 .67 1.00 -.12 .63 1.00 -.10
+CAR(2,10) -.04 -.07 1.00 -.04 -.07 1.00 -.04 -.08 1.00
+Panel B.
+CAR(2,10) CAR(2,10) CAR(2,10)
+AR(0) 1.00 .66 -.07 1.00 .68 -.08 1.00 .64 -.07
+CAR(0,1) .62 1.00 -.17 .64 1.00 -.20 .60 1.00 -.14
+CAR(2,10) -.07 -.14 1.00 -.07 -.16 1.00 -.06 -.12 1.00
+AR(0) CAR(0,1) AR(0) CAR(0,1) AR(0) CAR(0,1)
+Non-DRIP Stocks in Portfolio II
+Portfolio III: Hard_Arb DRIP Stocks in Portfolio III Non-DRIP Stocks in Portfolio III
+Table B.2. Correlations across Return Measures over Different Time Frames around the Dividend Pay Date
+AR(0) CAR(0,1) AR(0) CAR(0,1) AR(0) CAR(0,1)
+Portfolio II: High_DY DRIP Stocks in Portfolio II
+This Table provides correlations across the return measures taken over three different time frames around the dividend pay da te: AR(0),
+CAR(0,+1), and CAR(+2,+10). We compute these correlations across all stocks, DRIP stocks, and non -DRIP stocks within two portfolios selected
+each quarter. Panel A presents the results for Portfolio II (High_DY), which includes the tercile of all dividend-paying stocks each quarter with the
+highest dividend yield. Panel B provides the analogous results for Portfolio III (Hard_Arb), which includes hard -to-arbitrage stocks (i.e., the subset
+of all dividend-paying stocks each quarter in the: (i) top tercile by dividend yield, (ii) bottom tercile by institutional ownership in quarter n-1, and (iii)
+top tercile by the percent spread on day -10). The mean correlations are calculated in two stages. First, every quarter we compute each pairwise
+cross-sectional Pearson or Spearman correlation across the dividend events for each portfolio. Second, we compute the time seri es mean for each
+pairwise cross-sectional correlation across all quarters in the sample period covering 2008 - 2012. The standard deviation of every time series
+mean correlation is then used to construct the t-test of the null hypothesis that every mean correlation equals zero. The mean Pearson correlations
+are above the diagonal, and the mean Spearman correlations appear below the diagonal. Correlations in BOLD are significant at the .05 level.
+65
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table B.3. Firm Characteristics for the Subsets of DRIP Firms and Non-DRIP Firms in Portfolios II and III
+DRIP Non-DRIP
+# firms per qtr 468 *** 235 *** 230 *** 6 75 75 0
+Sizein (millions) $6,854 *** $11,624 *** $1,969 *** $9,655 *** $2,037*** $2,288*** -$251
+Div_Yieldin % 1.33 *** 1.15 *** 1.50 *** -.35 *** 1.10*** 1.17*** -.06 ***
+Pct_Instin-1 % 51.56 *** 54.89 *** 48.15 *** 6.73 *** 47.86*** 49.05*** -1.20
+Spreadin % 1.14 *** .78 *** 1.50 *** -.72 *** 1.34*** 1.31*** .04
+Log_Hiloin % 3.74 *** 3.35 *** 4.14 *** -.80 *** 3.71*** 4.01*** -.30 ***
+DRIP Non-DRIP
+# firms per qtr 195 *** 74 *** 120 *** -47 *** 24 24 0
+Sizein (millions) $234 *** $281 *** $206 *** $75 * $180*** $208*** -$29 *
+Div_Yieldin % 1.40 *** 1.17 *** 1.54 *** -.37 *** 1.14*** 1.17*** -.03
+Pct_Instin-1 % 24.96 *** 26.10 *** 24.26 *** 1.84 21.80*** 21.87*** -.06
+Spreadin % 2.54 *** 2.28 *** 2.71 *** -.43 2.81*** 2.84*** -.03
+Log_Hiloin % 4.19 *** 3.91 *** 4.36 *** -.45 *** 3.93*** 4.48*** -.55 ***
+III. Matched Pairs
+Mean Diff
+DRIP - Non-DRIP
+III. Difference of Means
+II. Matched Pairs
+Mean Diff
+Panel A.
+Portfolio II
+Panel B.
+Portfolio III
+Portfolio III. Hard_Arb
+Portfolio II. High_DY
+DRIP - Non-DRIP
+DRIP Stocks in II. Non-DRIP Stocks in II.
+DRIP Stocks in III. Non-DRIP Stocks in III.
+II. Difference of Means
+Mean Mean Mean
+Mean Mean Mean
+This Table summarizes the descriptive statistics for the firm characteristics analyzed in this study over the period, 2008 - 2012. The
+characteristics are defined in Table 3. Panel A provides the results for Portfolio II (High_DY), and Panel B gives the results for Portfolio III
+(Hard_Arb), which are described in Table B.1. In each Panel we present seven sets of results for: (1) all stocks in that portfolio, (2) DRIP
+stocks, (3) Non-DRIP stocks, (4) the difference of means across DRIP stocks and Non-DRIP stocks, and (5)-(7) the analogous results for
+a subset of matched pairs of DRIP stocks and non-DRIP stocks within that portfolio. The matching scheme is described in the text. We
+compute the average firm characteristics for every portfolio, using a panel regression of each variable on a constant term, with standard
+errors clustered by firm (i ) and quarter (n).
+66
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table B.4. Firm Characteristics and the Dividend Pay Date Effect: Extended Sample
+Intercept β0 .196 .252
+1.6 2.1 **
+DRIPin β1 .211 .252
+7.1 *** 7.1 ***
+Div_Yieldin β2 12.97 13.85
+4.4 *** 3.5 ***
+Log_Sizein β3 -.004 -.012
+-0.5 -1.5
+Pct_INSTin-1 β4 -.324 -.318
+-4.9 *** -4.7 ***
+Spreadin β5 1.65 .346
+1.4 0.2
+Log_Hiloin β6 1.04 2.25
+1.6 2.9 ***
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+Fama-MacBeth Clustered Std Errors
+by firm and quarter Variable
+Avg # Firms / qtr
+(Avg) R2
+1,169
+.019
+1,176
+.0065
+This Table analyzes the following relation between firm characteristics and the abnormal return on the dividend
+pay date, AR(0), over the extended period, 1996 - 2012, for which we have annual lists of DRIP firms from AAII:
+AR(0)in = β0 + β1 DRIPin + β2 Div_Yieldin + β3 Log_Sizein + β4 Pct_INSTin-1 + β5 Spreadin + β6 Log_Hiloin + εin . (2)
+All variables are defined in Table 1 and Table 3. The annual lists from AAII contain an unusually large increase
+of 230 new DRIP firms in 2008, suggesting that the earlier AAII lists omit many of these 230 DRIP firms prior to
+2008. While we have validated the accuracy of the AAII lists for the most recent period, we cannot be sure
+whether these 230 firms had DRIPs prior to 2008. We address this concern by taking the conservative
+approach of excluding these 230 firms from the extended sample for the earlier years prior to 2008.
+We present the results from applying two alternative methodologies to estimate this panel regression model,
+including the Fama-MacBeth approach and a panel regression with standard errors clustered by firm (i) and
+quarter (n). For the Fama-MacBeth approach, Newey-West robust standard errors of the mean quarterly FamaMacBeth coefficients are used to construct the t-ratios, which appear beneath the mean parameter estimates.
+67
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table B.5. Firm Characteristics and the Pay Date Effect: Fama-MacBeth Estimates
+Intercept β0 .682
+3.2 ***
+DRIPin β1 .299
+6.3 ***
+Div_Yieldin β2 12.10
+2.0 *
+Log_Sizein β3 -.038
+-2.4 **
+Pct_INSTin-1 β4 -.399
+-2.7 **
+Spreadin β5 4.70
+2.2 **
+Log_Hiloin β6 1.41
+1.2
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+Avg # Firms / qtr
+Avg R2
+ / qtr
+1,205
+.026
+This Table uses the Fama-MacBeth approach to estimate the following panel regression model that describes
+the relation between firm characteristics and the abnormal return on the dividend pay date, AR(0):
+AR(0)in = β0 + β1 DRIPin + β2 Div_Yieldin + β3 Log_Sizein + β4 Pct_INSTin-1 + β5 Spreadin + β6 Log_Hiloin + εin . (2)
+This model is applied to the sample including all dividend-paying stocks (both with and without DRIPs) over the
+period, 2008 - 2012. All variables are defined in Tables 1 and 3. Newey-West robust standard errors of the
+mean quarterly Fama-MacBeth coefficients are used to construct the t-ratios, which appear beneath the mean
+parameter estimates.
+68
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table B.6. Firm Characteristics, DRIP Participation, and the Pay Date Effect:
+ Fama-MacBeth Estimates
+Intercept α0 .546 Intercept β0 -.027
+9.6 *** -0.2
+DRIPin α1 .032 DRIPin β1 -.030
+6.4 *** -0.5
+_ _ Part1in β2 -.163
+-1.5
+_ _ DRIPin*Part1in β3 .630
+2.5 **
+Broker_Nonin α2 -.054 Broker_Nonin β4 -.012
+-1.9 * -0.1
+_ _ DRIPin*Broker_Nonin β5 .328
+0.6
+Div_Yieldin α3 3.86 Div_Yieldin β6 8.06
+5.2 *** 2.0 *
+Log_Sizein α4 -.025 Log_Sizein β7 .001
+-7.8 *** 0.1
+Spreadin α5 15.64 Spreadin β8 5.97
+5.5 *** 1.4
+Log_Hiloin α6 -.568 Log_hiloin β9 1.04
+-5.6 *** 0.6
+_ _ β2
+ + β3 .467 a
+t-statistic 3.2 ***
+Avg R2
+ / qtr 0.178 Avg R2
+ / qtr 0.021
+Avg # Firms/qtr 804 Avg # Firms/qtr 801
+*** indicates statistical significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+a
+ We test H0
+: (β2
+ + β3
+) = 0, by constructing the t-statistic for the time series mean of the sum of these two coefficients.
+Dependent Variable for (4) = AR(0) Dependent Variable for (3) = Partin in
+This Table uses the Fama-MacBeth approach to estimate the following two panel regression models that
+describe: (i) the relation between our proxy for DRIP participation and firm characteristics, and (ii) the relation
+between the pay date effect, AR(0), and our proxy for DRIP participation, as well as other firm characteristics:
+Partin = α0 + α1 DRIPin + α2 Broker_Nonin + α3 Div_Yieldin + α4 Log_Sizein + α5 Spreadin + α6 Log_Hiloin + ɛin. (3)
+AR(0)in = β0
+ + β1 DRIPin + β2 Partin + β3 DRIPin* Partin + β4 Broker_Nonin + β5 DRIPin* Broker_Nonin
+ + β6 Div_Yieldin + β7 Log_Sizein + β8 Spreadin + β9 Log_Hiloin + νin . (4)
+The sample period covers the years for which we have data on broker non-votes, 2010 - 2012. All variables
+are defined in Tables 1 and 3. Newey-West robust standard errors of the mean quarterly Fama-MacBeth
+coefficients are used to construct the t-statistics, which appear beneath the parameter estimates.
+69
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table D.1. Fama-French Regressions on Daily Excess Returns, (Ret(0)_kt - Rft), from Three Trading Strategies
+Intercept α .290 .295 .496 .505 .971 .985
+t-stat 12.0 *** 11.9 *** 14.2 *** 14.3 *** 12.0 *** 12.0 ***
+(Rm - Rf
+) β1 .920 .889 .812 .759 .570 .518
+t-stat 23.7 *** 27.3 *** 15.6 *** 16.3 *** 5.6 *** 5.5 ***
+HML β2 .631 .576 .667 .563 .686 .544
+t-stat 7.7 *** 8.1 *** 6.3 *** 6.3 *** 3.2 *** 3.1 ***
+SMB β3 .251 .261 .190 .205 .209 .240
+t-stat 4.7 *** 5.0 *** 2.6 *** 2.9 *** 1.5 1.6
+UMD β4 -.117 -.200 -.239
+t-stat -2.3 ** -3.1 *** -1.8 *
+Adj R2
+.398 .401 .274 .281 .100 .104
+F-Stat 842.8 *** 640.1 *** 357.8 *** 277.9 *** 51.5 *** 40.7 ***
+# of days
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+a We obtain similar results when we analyze profits in terms of the market-adjusted or benchmark-adjusted abnormal
+ returns on the pay date, AR(0), rather than actual returns, Ret(0), and when we analyze the more recent period
+ covering the years, 2008 - 2012.
+N = 3,814 days N = 2,836 days N = 1,363 days
+DRIP Stocks in Portfolio I (All_Stocks) DRIP Stocks in Portfolio II (High_DY) DRIP Stocks in Portfolio III (Hard_Arb)
+3-factors 4-factors 3-factors 4-factors 3-factors 4-factors
+This Table presents the results from estimating a Fama-French 3 or 4-factor model to analyze the mean daily excess actual returns on the
+dividend pay date, (Ret(0)_kt - Rft), from the three trading strategies that prescribe holding the subsets of DRIP stocks in the three portfolios
+(k = I - III) that pay dividends on any given date (t). First, we construct Portfolios I - III each quarter over the period, 1996 - 2012, as described in
+the text. Second, we compute the daily actual return on every dividend pay date (t) for each stock (i), Ret(0)it, over this period. Third, we
+compute the mean daily actual return on the pay date, Ret(0)_kt
+, across all DRIP stocks in each portfolio (k = I - III) that pay dividends on any
+given date (t). The resulting time series of daily mean returns, Ret(0)_kt
+, represent the daily actual returns to each of our three trading
+strategies. Finally, we subtract the daily riskfree rate from each series of daily returns, to obtain the time series of daily mean excess returns,
+(Ret(0)_kt - Rft), that represents the dependent variable analyzed in the Fama-French regression. Newey-West robust standard errors are used
+to construct the t-statistics.
+70
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table D.2. Determinants of Quarterly Profits from Trading Strategies
+ that Prescribe Holding the DRIP Stocks in Portfolios II and III
+Panel A. Portfolio II: High Dividend Yield Stocks
+Recessionn β1 10.23 7.56 6.37 .15
+t-ratio 1.3 1.0 0.8 0.0
+Trendn β2 .32 .41 .31 .71
+t-ratio 1.9 * 2.4 ** 1.5 2.7 ***
+Div_Yield_kn β3 70.73 59.47 57.28 50.04
+t-ratio 3.5 *** 3.1 *** 3.1 *** 2.5 **
+Spread_kn β4 14.91 16.33 12.63 19.93
+t-ratio 3.2 *** 3.4 *** 2.1 ** 2.7 ***
+Agg_LIQn β5 -1.01 -.64 -.74
+t-ratio -1.8 * -1.0 -1.2
+VIXn β6 .56 .27
+t-ratio 1.1 0.4
+Div_Premn
+a
+β7 .20
+t-ratio 0.7
+.60 .63 .64 .69
+26.0 *** 23.8 *** 20.6 *** 19.7 ***
+* indicates significance at the .10 level; ** at the .05 level; and *** at the .01 level.
+a
+ The models in the first three columns are estimated over the entire 68-quarter sample period, 1996-2012. The
+last column is estimated over the period, 1996-2010, due to data limitations on pdnd from Baker and Wurgler (2006).
+Adj R2
+Overall F
+Panels A and B of this Table present results for the time series regression model that analyzes
+determinants of the quarterly cumulative abnormal profits from our last two strategies, as follows:
+ CAR(0)_kn
+ = β0
+ + β1 Recessionn
+ + β2 Trendn
+ + β3 Div_Yield_kn
+ + β4 Spread_kn
+
+ + β5 Agg_LIQn
+ + β6 VIXn
+ + β7 Div_Premn
+ + εn , where k = Portfolio II or III. (6)
+The dependent variable, CAR(0)_kn
+, is computed in two steps. First, for every day (t) in our
+sample period, 1996 - 2012, we compute the stream of average daily profits as the crosssectional mean market-adjusted AR(0)_kt across all DRIP stocks in each Portfolio (k = II or III)
+that pay dividends on that day. Second, for each quarter (n), we aggregate this stream of daily
+profits, AR(0)_kt
+, across all days in which at least one DRIP stock in each portfolio pays a
+dividend, to obtain the cumulative abnormal profit, CAR(0)_kn
+, for each portfolio (k = II or III).
+Recessionn
+is a dummy variable that equals one for all quarters during recessions, and zero
+otherwise. Trendn
+is a deterministic trend that counts the quarters in our sample. Div_Yield_kn
+is the mean dividend yield in quarter n for the DRIP stocks from each Portfolio k (k = II or III).
+Spread_kn is the mean daily closing percent spread on day -10 prior to the dividend pay dates in
+quarter n, for the DRIP stocks in each Portfolio (k = II or III). Agg_LIQn is the aggregate liquidity
+measure of Pastor and Stambaugh (2003), averaged across the three months during quarter n.
+VIXn
+is the average of the monthly CBOE VIX index values during quarter n. Div_Premn is the
+quarterly average of the monthly aggregate market dividend premium (pdnd), from Baker and
+Wurgler (2006). The Newey-West t-ratios appear beneath the parameter estimates.
+71
+Electronic copy available at: https://ssrn.com/abstract=2172448
+Table D.2., continued
+Panel B. Portfolio III: Hard-to-Arbitrage Stocks
+Recessionn β1 20.88 19.13 18.76 9.93
+t-ratio 2.4 ** 2.3 ** 2.3 ** 1.4
+Trendn β2 .88 .89 .82 1.17
+t-ratio 5.0 *** 5.4 *** 5.3 *** 6.5 ***
+Div_Yield_kn β3 9.83 8.98 6.47 5.57
+t-ratio 0.8 0.8 0.5 0.5
+Spread_kn β4 13.89 13.62 12.00 16.31
+t-ratio 4.8 *** 5.3 *** 4.7 *** 5.6 ***
+Agg_LIQn β5 -.53 -.27 -.36
+t-ratio -1.0 -0.5 -0.7
+VIXn β6 .46 -.14
+t-ratio 0.9 -0.2
+Div_Premn
+a
+β7 .51
+t-ratio 2.4 **
+.68 .69 .69 .75
+Overall F 37.2 *** 30.4 *** 25.6 *** 26.6 ***
+Adj R2
+72
+Electronic copy available at: https://ssrn.com/abstract=2172448
