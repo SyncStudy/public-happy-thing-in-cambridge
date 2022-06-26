@@ -1,0 +1,282 @@
+# Uniform Asymptotics by Alexei
+
+
+
+Empirical specification
+$$
+log(Vol)=\alpha_0+[\beta_1+\beta_{11}|M|+\beta_{12}log]
+$$
+tensor in days
+$$
+X=F\and' +\varepsilon
+$$
+
+$$
+\and'\and/N^\alpha \rightarrow N
+$$
+
+$$
+N,T \rightarrow \infin
+$$
+
+$$
+N,T \rightarrow \infin
+$$
+
+$$
+T \ge N^{1-2\alpha}
+$$
+
+$$
+\alpha \in (0,1/2)
+$$
+
+$$
+\rho^2=cos^2 \angle (\hat{F}, F)
+$$
+
+$$
+\hat{F_t}
+$$
+
+$$
+X=F\and'+\epsilon
+$$
+
+$$
+F N(0,1_T)
+$$
+
+$$
+\epsilon N
+$$
+
+$$
+\frac{XX'}{T_n}=\frac{F(\frac{\and' \and}{n})F'}{T}+small
+$$
+
+$$
+\hat{F}=F+small
+$$
+
+$$
+｜｜F\and'||>>||\epsilon||
+$$
+
+$$
+A=A_0+small
+$$
+
+$$
+R=R_0(1+small R_0)^{-1}=R_0-R_0(small R_0)+R_0(smallR_0)^2-...
+$$
+
+$$
+P=P_0+smallP^{(1)}+(small)^2P^{(2)}+...
+$$
+
+$$
+P=\frac{1}{2\pi i} \oint R(z)dz
+$$
+
+$$
+R(z)=\frac{1}{\lambda_1-z}P+\frac{1}{\lambda_2-z}w_2v_2'+...
+$$
+
+$$
+A=\frac{XX'}{Tn}
+$$
+
+$$
+A_0=FF'/T
+$$
+
+$$
+small = \frac{||\epsilon||^2}{||F\and'||^2}=\frac{N+T}{nT}
+$$
+
+$$
+\rho^2=tr[PP_0]=1+\frac{1}{n}tr[P^{(1)}P_0]+\frac{1}{n^2}tr[P^{(2)}P_0]
+$$
+
+$$
+tr[P^{(j)}]
+$$
+
+$$
+\sqrt{T}(n(\rho^2-1)-\mu_1)=\sqrt{T}(tr[P^{(1)}P_0]-\mu_1)+\frac{\sqrt{T}}{1}
+$$
+
+$$
+\sqrt{T} << n^j \Longleftrightarrow \alpha >\frac{1}{2j}
+$$
+
+$$
+XX'
+$$
+
+$$
+F\and'\and F'
+$$
+
+$$
+XX'
+$$
+
+$$
+\epsilon\epsilon'
+$$
+
+$$
+XX'=F\and'\and F'+small=\hat{F}=F+small
+$$
+
+$$
+XX'=low rank +\epsilon\epsilon'=g
+$$
+
+$$
+(A+ff'-z)^{-1}=R(z)-\frac{R(z)ff'R(z)}{1+f'R(z)f}
+$$
+
+$$
+1+f'R(\hat{\lambda})f=0
+$$
+
+$$
+(f'\hat{f})^2=1/f'R(\hat{\lambda})
+$$
+
+$$
+\frac{XX'}{\sqrt{NT}}=\frac{n+1}{\sqrt{NT}}FF'+\frac{uu'}{\sqrt{NT}}
+$$
+
+$$
+A=uu'/\sqrt{NT}
+$$
+
+$$
+f=\frac{\sqrt{n+1}}{(NT)^{\frac{1}{4}}}
+$$
+
+$$
+F'\frac{R(\hat{\lambda})}{T}F
+$$
+
+$$
+=-\frac{1}{\sqrt{c}(c+1)}
+$$
+
+$$
+-\frac{1}{}
+$$
+
+$$
+\lambda_0=\frac{1}{\sqrt{c}}+\sqrt{c}+\frac{1}{\sqrt{c}n}+\sqrt{c}n
+$$
+
+$$
+\frac{n}{n+1}\sqrt{\frac{T/2}{}}
+$$
+
+$$
+\and'\and=\frac{1+\sum(N\and T)^\alpha}{\sqrt{c}}
+$$
+
+$$
+\and'\and=\sum N^\alpha
+$$
+
+$$
+\sqrt{c}n-1>K^{1}
+$$
+
+$$
+\sqrt{c}n-1>1
+$$
+
+$$
+\sqrt{c}n-1 <<1
+$$
+
+$$
+\sqrt{c}n-1>>K^{-1/3}
+$$
+
+$$
+\sqrt{c}n-1 \sim K^{-1/3}
+$$
+
+Three factors
+
+critical
+
+critical a weak factor
+
+critical point
+
+sorted 
+$$
+\rho^2=\frac{(F'R(\hat{\lambda})F)^2}{(F'F)(F'R^2(\hat{\lambda})F)}
+$$
+
+$$
+cn^2-1>K^{-1/3+\omega}
+$$
+
+$$
+\rho^2/\rho_0^2 \rightarrow1
+$$
+
+$$
+\rho_0^2=\frac{1}{2}
+$$
+
+$$
+1+\sum_{j=1}^{\infin} \mu_j/n^j=\rho_0^2
+$$
+
+$$
+\sqrt{T}n(\rho^2-\rho_0^2)
+$$
+
+$$
+T=250, N=1000
+$$
+
+$$
+
+$$
+
+$$
+tr\frac{1}{T}R(z)=
+$$
+
+$$
+local-semicircle-law
+$$
+
+$$
+\alpha \in (0,1)
+$$
+
+$$
+\alpha = -1/3
+$$
+
+$$
+\sum \in \mathbb{R}
+$$
+
+$$
+\alpha = -1/3
+$$
+
+$$
+\sum \in \mathbb{R}
+$$
+
+$$
+Convergence
+$$
+
