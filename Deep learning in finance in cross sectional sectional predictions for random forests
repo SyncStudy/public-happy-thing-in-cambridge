@@ -1,0 +1,81 @@
+# Deep learning in finance in cross sectional sectional predictions for random forests
+
+$$
+y_{i,t}=\alpha_{i,t-1}+\beta'_{i}
+$$
+
+$$
+\alpha_{i,t-1}=g_{\alpha,t}(x_{i,t-1})
+$$
+
+$$
+y_{i,t+1} \approx
+$$
+
+$$
+aNT=\phi NT+\eta NT+b NT
+$$
+
+$$
+A_s - B_s \approx G_{\beta,t}(X_{t-1})(f_s-\mathbb{E}f_s)
+$$
+
+$$
+G_{\beta,t}
+$$
+
+$$
+A_s-B_s \approx G_{\beta, t}(f_s-\mathbb{E}f_s)
+$$
+
+$$
+R_t = X'_{t,p}\theta_p+e_t
+$$
+
+$$
+Risk(p) = \frac{1}{25}\sum_{s=1}^{25}(R_{T+s} - X'_{T+s,p}
+$$
+
+CRSP
+
+1965-2018
+
+one peridod head prediction
+
+in sample decomposition- realized returns
+$$
+\kappa
+$$
+
+$$
+\Kappa
+$$
+
+$$
+R_{\hat{y}}^2
+$$
+
+$$
+R_{\beta'F}^2
+$$
+
+$$
+R^2_\alpha
+$$
+
+$$
+R_{\beta'(F+\lambda)}
+$$
+
+$$
+R_{\hat{y}}^2 \approx R_{\beta}
+$$
+
+$$
+\hat{r}_{\alpha, t}=\frac{1}{N_t} \widehat{g_\alpha}^{'} \widehat{y_t}
+$$
+
+$$
+K, R^2_{\hat{y}}
+$$
+
