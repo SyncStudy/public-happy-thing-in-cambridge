@@ -1,0 +1,255 @@
+# deep learning statistical arbitrage 
+
+- empirial
+- stanford
+- Jorge guijarro
+- markus
+
+## Motivation
+
+- Pair trading
+- GM and Ford
+- Assumption
+  - prices are on average similar 
+- Exploit temporal price different between similiar seests
+
+### Three components of statisical arbitarge
+
+- contrict protolio
+- trading signal
+
+## Foundational problem
+
+### Research question
+
+- arbitrage portolios
+- arbitarge signals
+
+## Contributions
+
+- Novel conceptual framework
+- Unified framework
+- To compare different statistical arbitrage methods
+  - Portolio generation
+  - signal extraction
+  - allocation decision
+- Study each component and compare with conventional models
+
+## Novel methods
+
+- statistical factor
+- Convolution neural network
+
+## Empirical
+
+- substantially outperforms
+- sharpe ratios
+
+## Parametric models
+
+- PCA 
+- cOINTEGRATION
+- STOCHASTIC CONTROL
+- SIMPLE PAIRS TRADING
+- INTRACTABLE PARAMETRIC MODELS WITH ml
+
+## Model
+
+$$
+R_{n,t}=\beta^T_{n,t-1}F_t+\varepsilon
+$$
+
+$$
+x:=\varepsilon_t^L:=(\varepsilon_{n,t-L})
+$$
+
+$$
+w_{t-1}^\varepsilon=w^\varepsilon(\theta(\varepsilon_{t-1}^L))
+$$
+
+$$
+w_{t-1}^R=\frac{}{}
+$$
+
+$$
+dX_t = \kappa(\mu-X_t)
+$$
+
+$$
+\theta_i=\sum_{j=1}^{L}W_j^{filter}X_j
+$$
+
+$$
+W^{}
+$$
+
+$$
+\theta^{CNN+Trans}(X)
+$$
+
+$$
+y_I^{(0)}=\sum_{m=1}^{D_{size}}W_m^{local}X
+$$
+
+$$
+h_i=\sum_{I=1}^{L}\alpha_i,I\widetilde{x_I}
+$$
+
+$$
+Fama-French Factor
+$$
+
+$$
+CNN+Transform
+$$
+
+$$
+\alpha, t_\alpha,R^2
+$$
+
+$$
+t_\mu
+$$
+
+$$
+w_{t-1}=\frac{w_{t-1}^{}}{}
+$$
+
+$$
+L=60
+$$
+
+$$
+FFN
+$$
+
+$$
+<1\%
+$$
+
+$$
+T_{train}=4 
+$$
+
+$$
+fast-reversal
+$$
+
+- fast reversal
+- early momemtum
+- low frequency downturn
+- low frequency momentum
+
+---
+
+- smooth trends or local curvature
+- most recent 14 days get more attention for trading decision
+
+---
+
+- more complex than simple reversal patterns
+
+$$
+cost(w_{t-1}^R, w_{t-2}^R)=0.0005||w_{t-1}
+$$
+
+$$
+B=7
+$$
+
+$$
+SR=1
+$$
+
+$$
+arbitrage 
+$$
+
+$$
+mean
+$$
+
+$$
+\Delta P=P_2-P_1
+$$
+
+$$
+V=\sum
+$$
+
+$$
+V=|\beta_0+\beta_1\Delta P|
+$$
+
+$$
+\beta_0=c(\mu_A-\mu_B)
+$$
+
+$$
+\beta_1=f(risk)
+$$
+
+$$
+E(V)=E[|\beta_0+\beta_{1\sigma P}Z|]
+$$
+
+$$
+Z 
+$$
+
+$$
+N(0,1)
+$$
+
+$$
+E(V)=constant
+$$
+
+$$
+\frac{1}{1+\phi (\frac{h|\beta_0|}{\beta_1})}
+$$
+
+$$
+K>S_T
+$$
+
+$$
+K \le S_\tau
+$$
+
+$$
+K-S_\tau
+$$
+
+$$
+K>S_0, k=S_0
+$$
+
+$$
+moneyness=\frac{log(\frac{K}{S_0})}{\sigma \sqrt{\tau}}
+$$
+
+$$
+long dated = large \tau
+$$
+
+$$
+Moneyness = \frac{log(\frac{K}{S_0})}{\sigma\sqrt{\tau}}
+$$
+
+$$
+SPX
+$$
+
+$$
+3 billion
+$$
+
+$$
+RV_t^{option}=\sum_i (r_{i,t}^{option})^2
+$$
+
+realized variance
+$$
+RV_t^{option}=\sum_i(r_{i,t}^{option})^2
+$$
