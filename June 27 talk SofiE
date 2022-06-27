@@ -1,0 +1,100 @@
+# June 27 talk SofiE
+
+$$
+Y_z=(z_t',h_t',x_t')'
+$$
+
+$$
+A_0Y_t=a+\sum_{l=1}
+$$
+
+$$
+A_0^{-1}=chol(\widehat{\sum})*Q
+$$
+
+$$
+IRFs
+$$
+
+$$
+AUT, BEL, FRA, GER, ITA, NLD, PRT, SPN
+$$
+
+$$
+VARX models
+$$
+
+$$
+7 GDP
+$$
+
+- GDP
+- VARX models for each countries
+  - Endogenous
+    - 7 country specic variables
+
+- macroeconomic variables
+- Asset purchase schock
+- Asset purchase shock
+- CB information shock
+  - Governemnt bond
+  - Stock prices
+  - Value groth
+  - Corporate debt
+  - Sovereign stress index
+
+## Bond market
+
+- Stock market
+- MSCI
+- Value growth
+
+![image-20220627162525459](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220627162525459.png)
+$$
+F_{t,T}(S)=S_te^{r(T-t)}=S_te^{r(T-t)}-FV_{t,T}(Dividends)=S_te^{(r-\delta)(T-t) }
+$$
+
+$$
+F_{t,T}(S)=S_te^{r(T-t)}=S_te^{T-t}-FV_{t,T}(Dividends) 
+$$
+
+$$
+S_t e^{-\delta (T-t)}
+$$
+
+$$
+c(S_t,K,t,T)-p(S_t,K,t,T)=F_{t,T}^{P}(S)-Ke^{-r(T-t)}
+$$
+
+$$
+0\le c(K_1)-c(K_2) \le (K_2- K_1)e^{-rT}
+$$
+
+$$
+0 \le p(K_2)-p(K_1) \le (K_2-K_1)e^{-rT}
+$$
+
+$$
+\frac{c(K_1)-c(K_2)}{K_2-k_1} \ge \frac{c(K_2)-c(K_3)}{K_3-k_2}
+$$
+
+$$
+K_2=\lambda K_1+(1-\lambda)K_3
+$$
+
+$$
+\lambda = \frac{K_3-K_2}{K_3-K_1}
+$$
+
+$$
+PLLF_\lambda = LLF-\lambda \sum_{j=1}^{j}(\widehat{w_j}|\theta_j|)
+$$
+
+$$
+GIC_\lambda = \frac{1}{N}\{2[LLF(\hat{}  \}
+$$
+
+$$
+\phi
+$$
+
