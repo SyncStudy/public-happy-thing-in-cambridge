@@ -1,0 +1,73 @@
+# 区块链分享反馈笔记
+
+![image-20220619160015179](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619160015179.png)
+
+
+
+
+
+- t时刻的我所拥有的东西
+- ![image-20220619160754626](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619160754626.png)
+- ![image-20220619161534858](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619161534858.png)
+- ![image-20220619161614895](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619161614895.png)
+
+- t不一定是今天
+- n
+
+
+
+
+
+![image-20220619161842845](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619161842845.png)
+
+![image-20220619162033389](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619162033389.png)
+
+- 用指数，之后log
+- 指数形式
+- 假设你一期正态分布
+- 多期也是正态分布
+- 如果是log
+- 渐进意义上的服从的
+- 只要是有时间价值的我购买的生产要素就可以来考虑
+- 复利和时间的概念
+
+----
+
+- log的反函数
+
+----
+
+- 时间的相依性
+- 车牌号进来的时候，没有时间相依性
+
+![image-20220619162815519](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619162815519.png)
+
+![image-20220619163148927](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619163148927.png)
+
+- $$
+  \mu= constant= mean 
+  $$
+
+  
+
+- 取决于你具体的设定
+
+- 就是bias
+
+- ![image-20220619163403278](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619163403278.png)
+
+- ![image-20220619163432118](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619163432118.png)
+
+- 根据残差来
+
+- 用目标来监督
+
+- ![image-20220619163746181](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619163746181.png)
+
+![](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619163746181.png)
+
+![image-20220619163851059](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619163851059.png)
+
+![image-20220619164101395](/Users/top1/Library/Application%20Support/typora-user-images/image-20220619164101395.png)
+
+![image-20220619164156445](https://asdsadsadsad.oss-cn-beijing.aliyuncs.com/image-20220619164156445.png)
